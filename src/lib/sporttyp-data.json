@@ -1,0 +1,946 @@
+{
+  "ESAF": {
+    "name": "Der Architekt",
+    "family": "str",
+    "tagline": "Plant, baut, perfektioniert",
+    "emoji": "🏗️",
+    "color": "#A78BFA",
+    "desc": "Systematisch, ruhig, eigenverantwortlich. Führt durch Kompetenz, nicht Lautstärke.",
+    "strengths": [
+      "Strategisches Denken",
+      "Hohe Selbstdisziplin",
+      "Konstante Leistung",
+      "Führung durch Vorbild"
+    ],
+    "risks": [
+      "Kann distanziert wirken",
+      "Schwer emotional erreichbar",
+      "Ungeduldig mit weniger Strukturierten"
+    ],
+    "playerDo": [
+      "Entwicklungsziele wöchentlich festhalten",
+      "1x pro Woche aktiv auf Mitspieler zugehen",
+      "Führungsrolle annehmen",
+      "Vor dem Spiel 3 kontrollierbare Ziele definieren"
+    ],
+    "playerDont": [
+      "Nicht vom Team isolieren",
+      "Nicht nur im Kopf bleiben",
+      "Feedback auch ohne Analyse geben",
+      "Nie aufhören Komfortzone zu verlassen"
+    ],
+    "coachDo": [
+      "Feedback sachlich und datenbasiert",
+      "Raum für eigenständiges Arbeiten",
+      "Als Sparringspartner nutzen",
+      "Entwicklungspläne gemeinsam erstellen"
+    ],
+    "coachDont": [
+      "Keine vagen Anweisungen",
+      "Nicht zu Gruppendynamik zwingen",
+      "Nicht öffentlich kritisieren",
+      "Routinen nicht ohne Erklärung ändern"
+    ],
+    "why": [
+      "Sachliches Feedback gibt konkrete Hebel",
+      "Eigenständigkeit aktiviert Autonomie",
+      "Langfristige Ziele passen zu Lernorientierung"
+    ],
+    "whyNot": [
+      "Emotionaler Druck blockiert analytisches Denken",
+      "Gruppenzwang frustriert Autonomiebedürfnis",
+      "Vage Anweisungen geben zu wenig Struktur"
+    ],
+    "selfDev": [
+      "Wochenplan: 2 Entwicklungsziele + 1 soziales Ziel",
+      "Fehler-Tagebuch führen",
+      "1 Teammoment pro Woche schaffen",
+      "Monatliche Reflexion: Bin ich auf meinem Pfad?"
+    ]
+  },
+  "ESAD": {
+    "name": "Der Perfektionist",
+    "family": "str",
+    "tagline": "Feilt an jedem Detail",
+    "emoji": "🔬",
+    "color": "#C4B5FD",
+    "desc": "Detailverliebt, selbstkritisch, konstant. Arbeitet im Stillen.",
+    "strengths": [
+      "Extreme Detailgenauigkeit",
+      "Hohe Zuverlässigkeit",
+      "Starke Umsetzung",
+      "Selbstreflexion"
+    ],
+    "risks": [
+      "Zu selbstkritisch",
+      "Scheut Führung",
+      "Braucht klare Rahmen"
+    ],
+    "playerDo": [
+      "Fortschritte dokumentieren",
+      "1x pro Woche Neues probieren",
+      "Feedback aktiv einfordern",
+      "Bei Erfolgen innehalten"
+    ],
+    "playerDont": [
+      "Nicht in Selbstkritik verlieren",
+      "Nicht auf perfekte Bedingungen warten",
+      "Führung nicht ablehnen",
+      "Nicht hinter stiller Rolle verstecken"
+    ],
+    "coachDo": [
+      "Aufgaben klar mit messbaren Zielen",
+      "Fortschritte sichtbar machen",
+      "Schrittweise Verantwortung geben",
+      "Klare Rahmenbedingungen"
+    ],
+    "coachDont": [
+      "Nicht ins kalte Wasser werfen",
+      "Stillen Einsatz nicht übersehen",
+      "Nicht zu viel gleichzeitig ändern",
+      "Nie pauschal kritisieren"
+    ],
+    "why": [
+      "Klare Strukturen geben Sicherheit",
+      "Messbare Fortschritte befriedigen Kompetenzbedürfnis",
+      "Detailarbeit ist deine Superkraft"
+    ],
+    "whyNot": [
+      "Unklare Erwartungen erzeugen Blockade",
+      "Zu viel Veränderung überfordert",
+      "Öffentliche Kritik trifft hart"
+    ],
+    "selfDev": [
+      "Tages-Check: 3 gut, 1 besser",
+      "90% reicht - weitergehen",
+      "Monatlich 1 Führungssituation suchen",
+      "Feedback holen statt nur eigene Bewertung"
+    ]
+  },
+  "ESIF": {
+    "name": "Der Innovator",
+    "family": "str",
+    "tagline": "Denkt anders, spielt anders",
+    "emoji": "⚡",
+    "color": "#8B5CF6",
+    "desc": "Kreativ, emotional, eigenständig. Sucht neue Wege.",
+    "strengths": [
+      "Kreativität",
+      "Emotionale Energie",
+      "Unkonventionelle Lösungen",
+      "Spielfreude"
+    ],
+    "risks": [
+      "Inkonstant",
+      "Frustriert bei engen Vorgaben",
+      "Braucht emotionale Freiheit"
+    ],
+    "playerDo": [
+      "Kreativität als Waffe einsetzen",
+      "1 feste Routine für Stabilität",
+      "Ideen aktiv einbringen",
+      "Spielfreude pflegen"
+    ],
+    "playerDont": [
+      "Von schlechten Phasen nicht entgleisen lassen",
+      "Nicht jede Vorgabe als Einschränkung sehen",
+      "Emotionen kanalisieren",
+      "Nicht nur auf Inspiration warten"
+    ],
+    "coachDo": [
+      "Kreative Freiräume schaffen",
+      "Emotionale Höhen nutzen",
+      "In Tiefs auffangen",
+      "Als Ideengeber einsetzen"
+    ],
+    "coachDont": [
+      "Kreativität nicht ersticken",
+      "Schwankungen nicht persönlich nehmen",
+      "Nicht in defensive Rolle zwingen",
+      "Spielfreude nie als unseriös abtun"
+    ],
+    "why": [
+      "Freiraum aktiviert Kreativität",
+      "Positive Emotionen steigern Leistung",
+      "Improvisation gibt Kontrolle"
+    ],
+    "whyNot": [
+      "Starre Systeme blockieren kreativen Zugang",
+      "Tiefs ohne Auffangnetz lähmen",
+      "Monotone Routinen töten Motivation"
+    ],
+    "selfDev": [
+      "Emotionsprotokoll: Wann war ich im Flow?",
+      "1 feste Morgenroutine als Anker",
+      "1 Atemtechnik für Regulierung",
+      "War Kreativität produktiv oder Flucht?"
+    ]
+  },
+  "ESID": {
+    "name": "Der Künstler",
+    "family": "str",
+    "tagline": "Fühlt das Spiel voraus",
+    "emoji": "🎨",
+    "color": "#7C3AED",
+    "desc": "Sensibel, intuitiv, entwicklungsorientiert.",
+    "strengths": [
+      "Hohes Spielverständnis",
+      "Intuition und Timing",
+      "Tiefe Selbstreflexion",
+      "Ästhetik"
+    ],
+    "risks": [
+      "Kritikempfindlich",
+      "Leistung schwankt mit Stimmung",
+      "Braucht Sicherheit"
+    ],
+    "playerDo": [
+      "Intuition bewusst einsetzen",
+      "3 Stärken vor dem Spiel benennen",
+      "Vertrauenspersonen suchen",
+      "Sensibilität als Stärke begreifen"
+    ],
+    "playerDont": [
+      "Kritik nicht persönlich nehmen",
+      "Nicht in schlechte Stimmung ziehen lassen",
+      "Nicht zu lange grübeln",
+      "Eigenart nie verstecken"
+    ],
+    "coachDo": [
+      "Vertrauen vor Kritik aufbauen",
+      "Stärken regelmäßig benennen",
+      "Feedback unter vier Augen",
+      "Intuition ernst nehmen"
+    ],
+    "coachDont": [
+      "Nie vor Team bloßstellen",
+      "Nicht mit Härte führen",
+      "Schwankungen nicht als Schwäche abstempeln",
+      "Sensibilität nie als unprofessionell abtun"
+    ],
+    "why": [
+      "Sichere Umgebung befreit Intuition",
+      "Vertrauen aktiviert Kompetenzbedürfnis",
+      "Ästhetischer Anspruch treibt zu Perfektion"
+    ],
+    "whyNot": [
+      "Öffentliche Kritik blockiert Spielgefühl",
+      "Hektik stört Wahrnehmung",
+      "Fehlende Wertschätzung untergräbt Motivation"
+    ],
+    "selfDev": [
+      "Morgenritual: 3 Dinge die du gut kannst",
+      "Kritik-Filter: 24h warten, Kern extrahieren",
+      "1 Vertrauensperson pro Woche",
+      "Schutzstrategie für Verletzung vorbereiten"
+    ]
+  },
+  "ETAF": {
+    "name": "Der Mentor",
+    "family": "tfo",
+    "tagline": "Entwickelt andere",
+    "emoji": "🧭",
+    "color": "#60A5FA",
+    "desc": "Ruhiger Teamführer mit Entwicklungsfokus.",
+    "strengths": [
+      "Vertrauenswürdigkeit",
+      "Teambuilding",
+      "Emotionale Konstanz",
+      "Vorbild"
+    ],
+    "risks": [
+      "Eigene Bedürfnisse zurückstellen",
+      "Zu geduldig",
+      "Meidet Konflikte"
+    ],
+    "playerDo": [
+      "Führungsrolle annehmen",
+      "1 persönliches Ziel pro Woche",
+      "Konflikte ansprechen",
+      "Jüngere begleiten"
+    ],
+    "playerDont": [
+      "Eigene Bedürfnisse nicht unterordnen",
+      "Underperformance nicht tolerieren",
+      "Nicht in Helfer-Rolle verlieren",
+      "Eigene Entwicklung nicht vernachlässigen"
+    ],
+    "coachDo": [
+      "Als Brücke Team-Staff einsetzen",
+      "Führungsrolle anerkennen",
+      "In taktische Prozesse einbinden",
+      "Eigene Entwicklung fördern"
+    ],
+    "coachDont": [
+      "Nicht als selbstverständlich nehmen",
+      "Nicht zum alleinigen Vermittler machen",
+      "Geduld nicht ausnutzen",
+      "Leise Führung ist keine Passivität"
+    ],
+    "why": [
+      "Teamdynamik gibt Energie und Sinn",
+      "Andere entwickeln befriedigt Kompetenzbedürfnis",
+      "Stabilität wirkt als Anker"
+    ],
+    "whyNot": [
+      "Eigene Bedürfnisse ignorieren führt zu Burnout",
+      "Konfliktvermeidung lässt Probleme wachsen",
+      "Ohne eigene Entwicklung sinkt Antrieb"
+    ],
+    "selfDev": [
+      "Wochencheck: Habe ich an MIR gearbeitet?",
+      "Spannungen innerhalb 48h ansprechen",
+      "Energiehaushalt prüfen",
+      "Monatliches Gespräch mit dem Trainer"
+    ]
+  },
+  "ETAD": {
+    "name": "Der Teamarchitekt",
+    "family": "tfo",
+    "tagline": "Baut das Fundament",
+    "emoji": "🏛️",
+    "color": "#93C5FD",
+    "desc": "Zuverlässig und sozial intelligent.",
+    "strengths": [
+      "Extreme Teamfähigkeit",
+      "Zuverlässigkeit",
+      "Lernbereitschaft",
+      "Soziale Intelligenz"
+    ],
+    "risks": [
+      "Stellt sich zu wenig heraus",
+      "Braucht Anerkennung",
+      "Übersieht Grenzen"
+    ],
+    "playerDo": [
+      "Vielseitigkeit kommunizieren",
+      "Eigene Leistungsmarker definieren",
+      "Feedback einfordern",
+      "Individuelle Stärken entwickeln"
+    ],
+    "playerDont": [
+      "Nicht unsichtbar machen",
+      "Nicht jede ungewollte Aufgabe nehmen",
+      "Ambitionen nicht opfern",
+      "Anpassung ist keine Beliebigkeit"
+    ],
+    "coachDo": [
+      "Beitrag vor dem Team anerkennen",
+      "Individuelle Ziele setzen",
+      "Auch mal Hauptrolle geben",
+      "Klares Feedback"
+    ],
+    "coachDont": [
+      "Einsatz nicht als selbstverständlich",
+      "Nicht nur stiller Helfer",
+      "Nicht überlasten",
+      "Nie mit lauteren vergleichen"
+    ],
+    "why": [
+      "Teamdienlichkeit ist Superkraft",
+      "Lernbereitschaft hält relevant",
+      "Soziale Intelligenz macht unersetzlich"
+    ],
+    "whyNot": [
+      "Ohne Anerkennung sinkt Motivation",
+      "Zu viel Selbstlosigkeit führt zu Rückzug",
+      "Ignorierte Grenzen brechen Konstanz"
+    ],
+    "selfDev": [
+      "1x pro Woche Beitrag benennen",
+      "Grenzen-Check: Wo zu viel?",
+      "1 Sache nur für mich pro Woche",
+      "Monatlich: Will ich diese Rolle noch?"
+    ]
+  },
+  "ETIF": {
+    "name": "Der Katalysator",
+    "family": "tfo",
+    "tagline": "Zündet den Funken",
+    "emoji": "🔥",
+    "color": "#3B82F6",
+    "desc": "Emotional, mitreißend, entwicklungsorientiert.",
+    "strengths": [
+      "Ansteckende Energie",
+      "Motivationsfähigkeit",
+      "Entwicklungsbegeisterung",
+      "Emotionale Führung"
+    ],
+    "risks": [
+      "Tiefs ziehen Team mit",
+      "Kann erschöpfen",
+      "Braucht Offenheit"
+    ],
+    "playerDo": [
+      "Energie gezielt einsetzen",
+      "Regeneration einplanen",
+      "Positives Feedback geben",
+      "Impulse in Besprechungen"
+    ],
+    "playerDont": [
+      "In Tiefs nicht Team runterziehen",
+      "Auf Burnout-Signale achten",
+      "Nicht frustriert bei weniger Emotionalen",
+      "Auch inhaltlich weiterentwickeln"
+    ],
+    "coachDo": [
+      "Energie als Teamressource nutzen",
+      "Rolle bei Ansprachen geben",
+      "In Tiefs auffangen",
+      "Regeneration durchsetzen"
+    ],
+    "coachDont": [
+      "Emotionen nicht unterdrücken",
+      "Nicht dauerhaft Hochtouren erwarten",
+      "Ausbrüche nicht persönlich nehmen",
+      "Begeisterung ist keine Oberflächlichkeit"
+    ],
+    "why": [
+      "Emotionen sind dein Treibstoff",
+      "Teamdynamik gibt Sinn",
+      "Begeisterung ist echte Führung"
+    ],
+    "whyNot": [
+      "Tiefs ohne Strategie blockieren tagelang",
+      "Dauerdruck führt zu Erschöpfung",
+      "Unerwiderte Energie macht einsam"
+    ],
+    "selfDev": [
+      "Energie-Tagebuch führen",
+      "Nach 3 intensiven Tagen 1 ruhigen",
+      "Ist Energie produktiv oder destruktiv?",
+      "1 taktische Verbesserung pro Monat"
+    ]
+  },
+  "ETID": {
+    "name": "Der Verbinder",
+    "family": "tfo",
+    "tagline": "Spürt was das Team braucht",
+    "emoji": "🤝",
+    "color": "#2563EB",
+    "desc": "Emotional intelligent, anpassungsfähig.",
+    "strengths": [
+      "Emotionale Intelligenz",
+      "Konfliktvermittlung",
+      "Soziale Wahrnehmung",
+      "Klimastärkung"
+    ],
+    "risks": [
+      "Verliert sich in Dynamik",
+      "Leistung leidet bei Konflikten",
+      "Schwer in toxischem Umfeld"
+    ],
+    "playerDo": [
+      "Soziale Wahrnehmung einsetzen",
+      "Grenzen bei Vermittlung setzen",
+      "Eigene Leistungsziele verfolgen",
+      "Neue Spieler integrieren"
+    ],
+    "playerDont": [
+      "Nicht in Dynamik verlieren",
+      "Nicht alle Probleme auf eigene Schultern",
+      "Toxisches Umfeld nicht ertragen",
+      "Individuelle Anerkennung einfordern"
+    ],
+    "coachDo": [
+      "Als Seismographen nutzen",
+      "Bei Konflikten als Brücke",
+      "Stabiles Umfeld schaffen",
+      "Individuelle Gespräche führen"
+    ],
+    "coachDont": [
+      "Nicht zum alleinigen Vermittler machen",
+      "Toxische Dynamik nicht ignorieren",
+      "Sensibilität ist keine Schwäche",
+      "Keine Führungsaufgaben delegieren"
+    ],
+    "why": [
+      "Emotionale Intelligenz ist selten",
+      "Harmonisches Umfeld befreit Potenzial",
+      "Brückenbauen gibt Sinn"
+    ],
+    "whyNot": [
+      "Teamkonflikte treffen persönlich",
+      "Zu viel Vermittlung erschöpft",
+      "Eigene Leistung vernachlässigen kostet Standing"
+    ],
+    "selfDev": [
+      "War das mein Konflikt?",
+      "1 Leistungsmarker nur für mich",
+      "Schutzstrategie wenn Klima kippt",
+      "Wie viel Energie in andere vs. mich?"
+    ]
+  },
+  "WSAF": {
+    "name": "Der Commander",
+    "family": "per",
+    "tagline": "Übernimmt Kontrolle",
+    "emoji": "👑",
+    "color": "#F59E0B",
+    "desc": "Siegeswillig, kontrolliert, dominant.",
+    "strengths": [
+      "Dominante Führung",
+      "Höchster Siegeswille",
+      "Druckresistenz",
+      "Klare Erwartungen"
+    ],
+    "risks": [
+      "Zu fordernd",
+      "Schwer zu coachen",
+      "Kann einschüchtern"
+    ],
+    "playerDo": [
+      "Siegeswillen als Inspiration",
+      "Verantwortung in Schlüsselmomenten",
+      "Höchste Ansprüche an dich selbst",
+      "Klare Kommunikation auf dem Platz"
+    ],
+    "playerDont": [
+      "Nicht einschüchtern - Respekt statt Angst",
+      "Ego nicht über Team stellen",
+      "Nicht alles kontrollieren wollen",
+      "Empathie und Zuhören entwickeln"
+    ],
+    "coachDo": [
+      "Echte Verantwortung geben",
+      "Feedback auf Augenhöhe",
+      "Ehrgeiz in messbare Ziele lenken",
+      "Respekt zeigen"
+    ],
+    "coachDont": [
+      "Nie vor Team demütigen",
+      "Nicht Härte mit Härte",
+      "Dominanz als Ressource steuern",
+      "Siegeswille ist kein Egoismus"
+    ],
+    "why": [
+      "Wettkampf aktiviert stärkste Ressourcen",
+      "Verantwortung gibt Kontrolle",
+      "Hohe Ansprüche treiben zu Spitzenleistung"
+    ],
+    "whyNot": [
+      "Kontrollverlust erzeugt destruktive Frustration",
+      "Fehlender Respekt untergräbt Motivation",
+      "Unterdrückte Dominanz kostet Antrieb"
+    ],
+    "selfDev": [
+      "Respekt-Check: Fordere oder verdiene ich?",
+      "1x pro Woche nach Mitspieler fragen",
+      "1 Situation pro Woche delegieren",
+      "Was wirkte, was erzeugte Widerstand?"
+    ]
+  },
+  "WSAD": {
+    "name": "Der Analyst",
+    "family": "per",
+    "tagline": "Denkt zwei Züge voraus",
+    "emoji": "📊",
+    "color": "#D97706",
+    "desc": "Analytisch, ruhig, ergebnisorientiert.",
+    "strengths": [
+      "Taktisches Verständnis",
+      "Rationale Entscheidungen",
+      "Konstanz",
+      "Leistungsanspruch"
+    ],
+    "risks": [
+      "Zu kopflastig",
+      "Emotionale Distanz",
+      "Frustration bei Inkompetenz"
+    ],
+    "playerDo": [
+      "Taktik mit Team teilen",
+      "Spielanalyse beibehalten",
+      "Emotionale Bindung aufbauen",
+      "Ruhe als Stabilisator"
+    ],
+    "playerDont": [
+      "Nicht zu lange analysieren",
+      "Distanz ist keine Überlegenheit",
+      "Frustration nicht zeigen",
+      "Emotionen als Antrieb zulassen"
+    ],
+    "coachDo": [
+      "In Analyse einbinden",
+      "Daten und Video teilen",
+      "Emotionale Teamarbeit fördern",
+      "Klare Ziele setzen"
+    ],
+    "coachDont": [
+      "Keine rein emotionalen Ansprachen",
+      "Nicht emotionalen Motor erwarten",
+      "Analytik ist keine Kälte",
+      "Intelligenz nicht übergehen"
+    ],
+    "why": [
+      "Daten geben Kontrolle und Sicherheit",
+      "Rationale Entscheidungen unter Druck",
+      "Taktische Tiefe als Wettbewerbsvorteil"
+    ],
+    "whyNot": [
+      "Überanalyse lähmt Handlungsfähigkeit",
+      "Emotionale Isolation schneidet ab",
+      "Ohne emotionale Verbindung fehlt Motivation"
+    ],
+    "selfDev": [
+      "Max. 15 Min Analyse dann Entscheidung",
+      "1 nicht-fußballerisches Gespräch pro Woche",
+      "Bewusst schnelle Entscheidungen trainieren",
+      "Verstehen Mitspieler meine Taktik?"
+    ]
+  },
+  "WSIF": {
+    "name": "Der Gladiator",
+    "family": "per",
+    "tagline": "Kämpft mit jeder Faser",
+    "emoji": "⚔️",
+    "color": "#EAB308",
+    "desc": "Intensiv und siegesorientiert.",
+    "strengths": [
+      "Extremer Kampfgeist",
+      "Emotionale Intensität",
+      "Führung durch Willen",
+      "Druckstärke"
+    ],
+    "risks": [
+      "Kann über Grenze gehen",
+      "Schwer zu bremsen",
+      "Konflikte bei Einsatz-Differenz"
+    ],
+    "playerDo": [
+      "Kampfgeist in Zweikämpfe und Schlussphase",
+      "Grenzen: intensiv aber fair",
+      "Willenskraft zum Mitziehen",
+      "Nach dem Spiel abschalten"
+    ],
+    "playerDont": [
+      "Nicht über die Grenze gehen",
+      "Ausbrüche nicht zum Dauerzustand",
+      "Nicht frustriert bei weniger Einsatz",
+      "Auch Taktik und Technik trainieren"
+    ],
+    "coachDo": [
+      "Intensität lenken mit klaren Aufgaben",
+      "Grenzen setzen ohne Energie brechen",
+      "In Druckmomenten Verantwortung geben",
+      "Zweikampfstärke taktisch nutzen"
+    ],
+    "coachDont": [
+      "Intensität nicht komplett runterfahren",
+      "Nie vor Mannschaft zusammenstauchen",
+      "Nicht mit Kälte reagieren",
+      "Leidenschaft ist keine Undiszipliniertheit"
+    ],
+    "why": [
+      "Adrenalin aktiviert stärkste Ressourcen",
+      "Kampfgeist ist ansteckend",
+      "Unter Druck wächst du"
+    ],
+    "whyNot": [
+      "Ohne Ventil wird Intensität destruktiv",
+      "Fehlende Grenzen kosten Gelbe und Rote Karten",
+      "Kritik an Einsatz anderer erzeugt Spaltung"
+    ],
+    "selfDev": [
+      "Intensitäts-Skala: 7/10 reicht meist",
+      "Provokations-Plan: gelassen bleiben",
+      "Abschalt-Ritual nach dem Spiel",
+      "Pro Woche 1 reine Technik-Einheit"
+    ]
+  },
+  "WSID": {
+    "name": "Der Taktiker",
+    "family": "per",
+    "tagline": "Spürt den Moment",
+    "emoji": "🎯",
+    "color": "#CA8A04",
+    "desc": "Wettkampfstark, anpassungsfähig.",
+    "strengths": [
+      "Timing und Instinkt",
+      "Wettkampfstärke",
+      "Flexibilität",
+      "Entscheidungsstärke"
+    ],
+    "risks": [
+      "Schwankt: Genie vs. unsichtbar",
+      "Braucht große Momente",
+      "Routine demotiviert"
+    ],
+    "playerDo": [
+      "Instinkt vertrauen",
+      "Verschiedene Positionen trainieren",
+      "In ruhigen Phasen präsent bleiben",
+      "Training kreativ gestalten"
+    ],
+    "playerDont": [
+      "Nicht frustriert ohne große Momente",
+      "Nicht auf Genie-Momente verlassen",
+      "Routine nicht als langweilig abtun",
+      "Unspektakuläres nicht vernachlässigen"
+    ],
+    "coachDo": [
+      "In Schlüsselmomente einbauen",
+      "Training abwechslungsreich",
+      "Verantwortung für Entscheidungen",
+      "Instinkt als Waffe einsetzen"
+    ],
+    "coachDont": [
+      "Nicht 90 Minuten Konstanz erwarten",
+      "Nicht mit Monotonie demotivieren",
+      "Nicht starr positionieren",
+      "Instinkt nicht durch Vorgabe überlagern"
+    ],
+    "why": [
+      "Timing ist seltenes Talent",
+      "Entscheidungsmomente geben maximale Motivation",
+      "Flexibilität macht überall wertvoll"
+    ],
+    "whyNot": [
+      "Routine ohne Höhepunkte tötet Motivation",
+      "Warten auf perfekten Moment verpasst Kleines",
+      "Ohne Grundkonstanz verpuffen Genie-Momente"
+    ],
+    "selfDev": [
+      "Pro Spiel 3 gute Aktionen in ruhigen Phasen",
+      "Mini-Challenges in Routine einbauen",
+      "Ohne Ball aktiv Räume anbieten",
+      "3 Timing-Situationen vor dem Spiel durchspielen"
+    ]
+  },
+  "WTAF": {
+    "name": "Der Kapitän",
+    "family": "lea",
+    "tagline": "Trägt das Team",
+    "emoji": "🛡️",
+    "color": "#F87171",
+    "desc": "Fels in der Brandung. Stabil in Krisen.",
+    "strengths": [
+      "Natürliche Autorität",
+      "Teamschutz",
+      "Krisenstabilität",
+      "Verantwortung"
+    ],
+    "risks": [
+      "Nimmt zu viel Last",
+      "Schwer Schwäche zu zeigen",
+      "Kann autoritär wirken"
+    ],
+    "playerDo": [
+      "Führungsrolle leben",
+      "In Krisen vorangehen",
+      "Verantwortung an 2-3 weitere delegieren",
+      "Siegeswille + Empathie verbinden"
+    ],
+    "playerDont": [
+      "Nicht alles allein tragen",
+      "Autoritär nicht zur Gewohnheit",
+      "Regeneration nicht vernachlässigen",
+      "Zuhören ist stärker als Reden"
+    ],
+    "coachDo": [
+      "Als verlängerten Arm nutzen",
+      "Verantwortung teilen",
+      "Vertrauen und Freiheit geben",
+      "Vier-Augen-Gespräche auf Augenhöhe"
+    ],
+    "coachDont": [
+      "Nicht alle Last auf ihn",
+      "Nicht erwarten dass er nie Hilfe braucht",
+      "Autoritäres nicht verstärken",
+      "Loyalität nie als selbstverständlich"
+    ],
+    "why": [
+      "Verantwortung gibt Sinn",
+      "Teamschutz aktiviert Bindungsbedürfnis",
+      "Stabilität ist in Krisen entscheidend"
+    ],
+    "whyNot": [
+      "Zu viel Last führt zu Erschöpfung",
+      "Nie Schwäche zeigen macht unerreichbar",
+      "Autoritärer Stil erzeugt Widerstand"
+    ],
+    "selfDev": [
+      "Pro Woche 1 Verantwortung abgeben",
+      "1x pro Monat ehrlich zeigen wie es dir geht",
+      "Last-Check: Für Team oder fürs Ego?",
+      "War ich Kapitän oder Diktator?"
+    ]
+  },
+  "WTAD": {
+    "name": "Der Mannschaftsspieler",
+    "family": "lea",
+    "tagline": "Gibt alles ohne Ego",
+    "emoji": "🔄",
+    "color": "#FB7185",
+    "desc": "Kompromisslos im Dienst des Teams.",
+    "strengths": [
+      "Maximaler Teameinsatz",
+      "Vielseitigkeit",
+      "Disziplin",
+      "Vorbildlicher Teamgeist"
+    ],
+    "risks": [
+      "Eigene Entwicklung vernachlässigen",
+      "Wird übersehen",
+      "Braucht Wertschätzung"
+    ],
+    "playerDo": [
+      "Vielseitigkeit als Alleinstellung",
+      "Eigene Ziele aktiv setzen",
+      "Einsatz sichtbar machen",
+      "Wertschätzung einfordern"
+    ],
+    "playerDont": [
+      "Eigene Entwicklung nicht opfern",
+      "Nicht unsichtbar machen",
+      "Nicht alles schlucken",
+      "An individuellen Stärken arbeiten"
+    ],
+    "coachDo": [
+      "Einsatz öffentlich anerkennen",
+      "Individuelle Ziele setzen",
+      "Auch mal Hauptrolle geben",
+      "Vielseitigkeit strategisch nutzen"
+    ],
+    "coachDont": [
+      "Einsatz nicht als selbstverständlich",
+      "Nicht nur als Notlösung",
+      "Individuelles Feedback geben",
+      "Loyalität nicht ausnutzen"
+    ],
+    "why": [
+      "Teamdienlichkeit ist Stärke",
+      "Vielseitigkeit macht unverzichtbar",
+      "Disziplin setzt Standards"
+    ],
+    "whyNot": [
+      "Selbstvergessenheit führt zu Unzufriedenheit",
+      "Fehlende Anerkennung höhlt Motivation",
+      "Nur geben ohne erhalten führt zu Rückzug"
+    ],
+    "selfDev": [
+      "Pro Woche 1 Ich-Ziel",
+      "Nach Spiel benennen was ICH gut machte",
+      "Aufgaben: Gewohnheit oder freiwillig?",
+      "Wenn Wertschätzung fehlt: ansprechen"
+    ]
+  },
+  "WTIF": {
+    "name": "Der Motivator",
+    "family": "lea",
+    "tagline": "Reißt alle mit",
+    "emoji": "📣",
+    "color": "#EF4444",
+    "desc": "Lauteste Stimme auf dem Platz.",
+    "strengths": [
+      "Ansteckender Siegeswille",
+      "Emotionale Führung",
+      "Mobilisierung",
+      "Entscheidungsstärke"
+    ],
+    "risks": [
+      "Bei Niederlagen destruktiv",
+      "Emotionale Schwankungen",
+      "Kann Ruhigere überfahren"
+    ],
+    "playerDo": [
+      "Emotionale Führung gezielt einsetzen",
+      "Siegeswillen als Inspiration",
+      "In Niederlagen als Erster aufstehen",
+      "Ruhigere mitnehmen"
+    ],
+    "playerDont": [
+      "Bei Niederlagen nicht destruktiv",
+      "Ruhigere nicht überfahren",
+      "Schwankungen managen",
+      "Auch leise Momente haben Kraft"
+    ],
+    "coachDo": [
+      "Emotionale Energie in Krisen nutzen",
+      "Klare Feedback-Regeln",
+      "Raum für emotionale Führung",
+      "Motivationsfähigkeit nutzen"
+    ],
+    "coachDont": [
+      "Ausbrüche nicht immer bestrafen",
+      "Nicht zum Schweigen bringen",
+      "Nicht mit Kälte reagieren",
+      "Leidenschaft nie als Problem labeln"
+    ],
+    "why": [
+      "Emotionale Intensität ist dein Motor",
+      "Siegeswille hebt das ganze Team",
+      "In Krisen bist du am stärksten"
+    ],
+    "whyNot": [
+      "Unkontrollierte Emotion schadet",
+      "Dauerintensität erschöpft",
+      "Ruhigere überfahren kostet Verbündete"
+    ],
+    "selfDev": [
+      "Emotions-Ampel: Grün/Gelb/Rot",
+      "Niederlagen-Protokoll: erste 5 Minuten planen",
+      "Wie wirke ich auf den Stillsten?",
+      "1x pro Woche bewusst leise führen"
+    ]
+  },
+  "WTID": {
+    "name": "Der Mitreißer",
+    "family": "lea",
+    "tagline": "Spielt für das Wir",
+    "emoji": "💫",
+    "color": "#DC2626",
+    "desc": "Gewinnt Energie aus der Mannschaft.",
+    "strengths": [
+      "Emotionale Bindung",
+      "Anpassungsfähigkeit",
+      "Kollektive Leidenschaft",
+      "Gruppenkampfgeist"
+    ],
+    "risks": [
+      "Abhängig von Teamdynamik",
+      "Bei Isolation Einbruch",
+      "Braucht kollektive Energie"
+    ],
+    "playerDo": [
+      "Emotionale Bindung als Stärke nutzen",
+      "Teamaktivitäten mitgestalten",
+      "Anpassungsfähigkeit taktisch nutzen",
+      "In schwierigen Phasen Energie halten"
+    ],
+    "playerDont": [
+      "Nicht komplett von Dynamik abhängig",
+      "Bei Isolation nicht einbrechen",
+      "Individuelle Ziele nicht vergessen",
+      "Auch allein leistungsfähig bleiben"
+    ],
+    "coachDo": [
+      "Teamspirit aktiv fördern",
+      "In Rituale einbinden",
+      "Einzelgespräche behutsam",
+      "Anpassungsfähigkeit für Rollen nutzen"
+    ],
+    "coachDont": [
+      "Nicht isolieren",
+      "Nicht allein funktionieren erwarten",
+      "Abhängigkeit ist keine Schwäche",
+      "Emotionalität nie unterdrücken"
+    ],
+    "why": [
+      "Gemeinschaft gibt dir übermenschliche Kraft",
+      "Emotionale Bindung macht Team stärker",
+      "Anpassung hält dich relevant"
+    ],
+    "whyNot": [
+      "Isolation schneidet von Energiequelle ab",
+      "Ohne kollektive Momente fehlt Antrieb",
+      "Nur reagieren statt agieren kostet Einfluss"
+    ],
+    "selfDev": [
+      "1x pro Woche bewusst allein trainieren",
+      "1 Anker der auch ohne Team funktioniert",
+      "Was kann ICH ändern wenn Gruppenenergie fehlt?",
+      "Plan B für Isolation vorbereiten"
+    ]
+  }
+}

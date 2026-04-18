@@ -1,0 +1,1207 @@
+/* ─── Google Fonts (muss vor @import tailwindcss stehen) ─── */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800;900&family=DM+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800;900&family=DM+Mono:wght@400;500&display=swap');
+
+@import "tailwindcss";
+
+/* ══════════════════════════════════════════════════════════════════
+   HUMATRIX YOUTH ACADEMY — DESIGN SYSTEM v3 (Preview-Match)
+
+   Zwei Welten via data-theme auf <html>:
+   - [data-theme="coach"] → professionell, Inter, Navy + Cyan Akzent, pill-buttons
+   - [data-theme="youth"] → verspielt, Syne + DM Sans, Purple/Pink/Orange Gradients
+
+   Match zur design-preview.html (760 Zeilen)
+   ══════════════════════════════════════════════════════════════════ */
+
+/* ═══════════════ COACH THEME (default) ═══════════════ */
+:root,
+[data-theme="coach"] {
+  --bg: #f3f4f8;
+  --page-bg: #f3f4f8;
+  --surface: #ffffff;
+  --surface-2: #f8f9fb;
+  --surface-3: #f0f1f5;
+  --navy: #0d1526;
+  --navy2: #131e36;
+  --ink: #111827;
+  --text: #111827;
+  --ink-soft: #374151;
+  --muted: #6b7280;
+  --border: rgba(0, 0, 0, 0.06);
+  --card-border: rgba(0, 0, 0, 0.06);
+  --border-strong: rgba(0, 0, 0, 0.12);
+
+  --accent: #0891b2;
+  --accent-2: #0891b2;
+  --accent-3: #0d1526;
+  --cyan: #0891b2;
+  --cyan-glow: rgba(8, 145, 178, 0.10);
+  --accent-soft: rgba(8, 145, 178, 0.06);
+  --gold: #b45309;
+  --gold-glow: rgba(180, 83, 9, 0.08);
+  --red: #be123c;
+  --green: #047857;
+  --danger: #be123c;
+  --success: #047857;
+
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.07);
+  --shadow-lg: 0 16px 50px rgba(0, 0, 0, 0.10);
+
+  --radius-card: 12px;
+  --radius-btn: 8px;
+  --radius-input: 8px;
+
+  --font-display: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+  --font-mono: 'DM Mono', 'SF Mono', ui-monospace, monospace;
+
+  --card: #ffffff;
+  --accent-primary: var(--navy);
+  --accent-primary-2: var(--navy2);
+
+  --grad-primary: linear-gradient(160deg, #0d1526 0%, #131e36 100%);
+  --grad-accent: linear-gradient(135deg, #0891b2 0%, #06728e 100%);
+}
+
+/* ═══════════════ YOUTH THEME ═══════════════ */
+[data-theme="youth"] {
+  --bg: #0a0a0f;
+  --page-bg: #0a0a0f;
+  --surface: #141419;
+  --surface-2: #1a1a22;
+  --surface-3: #222230;
+  --navy: #0a0a0f;
+  --navy2: #141419;
+  --ink: #f0f0f5;
+  --text: #f0f0f5;
+  --ink-soft: #c8c8d4;
+  --muted: #6e6e82;
+  --border: rgba(255, 255, 255, 0.06);
+  --card-border: rgba(255, 255, 255, 0.06);
+  --border-strong: rgba(255, 255, 255, 0.12);
+
+  --accent: #8b5cf6;
+  --accent-2: #ec4899;
+  --accent-3: #f97316;
+  --cyan: #06b6d4;
+  --cyan-glow: rgba(6, 182, 212, 0.14);
+  --accent-soft: rgba(139, 92, 246, 0.10);
+  --gold: #f59e0b;
+  --gold-glow: rgba(245, 158, 11, 0.12);
+  --red: #f43f5e;
+  --green: #22c55e;
+  --danger: #f43f5e;
+  --success: #22c55e;
+
+  --shadow-xs: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-sm: 0 8px 24px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 18px 46px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 28px 72px rgba(0, 0, 0, 0.6);
+
+  --radius-card: 16px;
+  --radius-btn: 12px;
+  --radius-input: 12px;
+
+  --font-display: 'Syne', 'Inter', sans-serif;
+  --font-body: 'DM Sans', 'Inter', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+
+  --card: #141419;
+  --accent-primary: #8b5cf6;
+  --accent-primary-2: #ec4899;
+
+  --grad-primary: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+  --grad-accent: linear-gradient(135deg, #ec4899 0%, #f97316 50%, #8b5cf6 100%);
+  --grad-text: linear-gradient(135deg, #8b5cf6, #ec4899, #f97316);
+  --grad-text-3: linear-gradient(135deg, #8b5cf6, #ec4899, #f97316);
+}
+
+/* ════════════════════════════════════════════════════════════════
+   BASE RESET
+   ════════════════════════════════════════════════════════════════ */
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  min-height: 100vh;
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background: var(--bg);
+}
+
+[data-theme="coach"] body {
+  font-size: 15px;
+  background: var(--bg);
+}
+
+[data-theme="youth"] body {
+  background: #0a0a0f;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-display);
+  color: var(--ink);
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+}
+
+[data-theme="coach"] h1,
+[data-theme="coach"] h2 {
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+[data-theme="coach"] h1 em,
+[data-theme="coach"] h2 em {
+  font-style: normal;
+  color: var(--accent);
+  font-weight: 800;
+}
+
+[data-theme="youth"] h1,
+[data-theme="youth"] h2 {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.045em;
+}
+
+input, select, textarea, button { font-family: inherit; font-size: inherit; }
+a { color: inherit; text-decoration: none; }
+
+::selection { background: var(--cyan-glow); }
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.28);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover { background: rgba(100, 116, 139, 0.45); }
+
+.hm-page { position: relative; z-index: 1; min-height: 100vh; }
+
+/* ════════════════════════════════════════════════════════════════
+   CARDS
+   ════════════════════════════════════════════════════════════════ */
+
+.card, .hm-card {
+  background: var(--surface);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-xs);
+  padding: 1.5rem;
+  transition: box-shadow 0.15s;
+}
+
+[data-theme="coach"] .card,
+[data-theme="coach"] .hm-card {
+  border-radius: 12px;
+  padding: 22px 24px;
+  background: #fff;
+}
+
+[data-theme="youth"] .card,
+[data-theme="youth"] .hm-card {
+  background: #141419;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+}
+
+.card:hover, .hm-card:hover {
+  box-shadow: var(--shadow-sm);
+}
+
+[data-theme="youth"] .card:hover,
+[data-theme="youth"] .hm-card:hover {
+  border-color: rgba(255, 255, 255, 0.10);
+}
+
+.card-flat, .card-link, .hm-card-link { cursor: pointer; display: block; }
+.card-link:hover, .hm-card-link:hover {
+  box-shadow: var(--shadow-md);
+}
+
+/* ════════════════════════════════════════════════════════════════
+   BUTTONS
+   ════════════════════════════════════════════════════════════════ */
+
+.btn-primary, .hm-btn-primary {
+  display: inline-flex; align-items: center; justify-content: center;
+  gap: 0.4rem;
+  background: var(--grad-primary);
+  color: white;
+  border: none;
+  border-radius: var(--radius-btn);
+  padding: 0.65rem 1.3rem;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: var(--font-body);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary:hover, .hm-btn-primary:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  filter: brightness(1.1);
+}
+
+.btn-primary:disabled, .hm-btn-primary:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+[data-theme="youth"] .btn-primary,
+[data-theme="youth"] .hm-btn-primary {
+  background: var(--grad-primary);
+  box-shadow: 0 8px 24px rgba(139, 92, 246, 0.25);
+  font-weight: 800;
+  padding: 0.75rem 1.4rem;
+  border-radius: 12px;
+}
+
+[data-theme="youth"] .btn-primary:hover,
+[data-theme="youth"] .hm-btn-primary:hover {
+  box-shadow: 0 12px 32px rgba(139, 92, 246, 0.35);
+  transform: translateY(-1px);
+}
+
+.btn-accent, .hm-btn-youth {
+  display: inline-flex; align-items: center; justify-content: center;
+  gap: 0.4rem;
+  background: var(--grad-accent);
+  background-size: 200% 200%;
+  animation: gradShift 6s ease infinite;
+  color: white;
+  border: none;
+  border-radius: var(--radius-btn);
+  padding: 0.95rem 1.5rem;
+  font-weight: 800;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: transform 0.18s, box-shadow 0.18s;
+  font-family: var(--font-body);
+  box-shadow: 0 14px 32px rgba(124, 58, 237, 0.35);
+}
+
+.btn-accent:hover, .hm-btn-youth:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 40px rgba(124, 58, 237, 0.45);
+}
+
+@keyframes gradShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+[data-theme="coach"] .btn-accent,
+[data-theme="coach"] .hm-btn-youth {
+  background: var(--grad-accent);
+  animation: none;
+  box-shadow: 0 1px 4px rgba(8, 145, 178, 0.2);
+  border-radius: 8px;
+  padding: 0.65rem 1.3rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.btn-secondary, .hm-btn-secondary {
+  display: inline-flex; align-items: center; justify-content: center;
+  gap: 0.4rem;
+  background: var(--surface);
+  color: var(--ink-soft);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-btn);
+  padding: 0.65rem 1.3rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: var(--font-body);
+}
+
+.btn-secondary:hover, .hm-btn-secondary:hover {
+  border-color: var(--ink);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+[data-theme="youth"] .btn-secondary,
+[data-theme="youth"] .hm-btn-secondary {
+  font-weight: 700;
+  border: 1px solid var(--border);
+}
+
+/* ════════════════════════════════════════════════════════════════
+   INPUTS
+   ════════════════════════════════════════════════════════════════ */
+
+input[type="text"], input[type="email"], input[type="password"],
+input[type="date"], input[type="number"], input[type="tel"],
+select, textarea {
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-input);
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  color: var(--ink);
+  font-family: var(--font-body);
+  transition: border-color 0.18s, box-shadow 0.18s;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+[data-theme="youth"] input,
+[data-theme="youth"] select,
+[data-theme="youth"] textarea {
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: #1a1a22;
+  color: #f0f0f5;
+}
+
+[data-theme="youth"] input:focus,
+[data-theme="youth"] select:focus,
+[data-theme="youth"] textarea:focus {
+  border-color: #8b5cf6;
+  box-shadow: 0 0 0 3px rgba(139,92,246,0.15);
+}
+
+label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.4rem;
+}
+
+/* ════════════════════════════════════════════════════════════════
+   KPIs
+   ════════════════════════════════════════════════════════════════ */
+
+.hm-kpi {
+  background: var(--surface);
+  border: 1px solid var(--card-border);
+  border-radius: 20px;
+  padding: 1.15rem;
+  text-align: center;
+  box-shadow: var(--shadow-xs);
+  transition: transform 0.18s, box-shadow 0.18s;
+}
+
+.hm-kpi:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+.hm-kpi-value {
+  font-family: var(--font-display);
+  font-size: 1.9rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: var(--ink);
+}
+
+[data-theme="youth"] .hm-kpi {
+  border-radius: 24px;
+}
+
+[data-theme="youth"] .hm-kpi-value {
+  background: var(--grad-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 2.1rem;
+  font-weight: 900;
+}
+
+.hm-kpi-label {
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-top: 0.45rem;
+  color: var(--muted);
+}
+
+[data-theme="youth"] .hm-kpi-label {
+  color: var(--muted);
+}
+
+/* ════════════════════════════════════════════════════════════════
+   BADGES
+   ════════════════════════════════════════════════════════════════ */
+
+.hm-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+[data-theme="youth"] .hm-badge {
+  font-weight: 800;
+}
+
+/* Farbvarianten */
+.hm-badge-green { background: rgba(26, 165, 108, 0.10); color: #14895a; }
+.hm-badge-red   { background: rgba(220, 91, 91, 0.10); color: #c24141; }
+.hm-badge-cyan  { background: rgba(20, 184, 196, 0.10); color: #0f8f99; }
+.hm-badge-gold  { background: rgba(211, 154, 49, 0.14); color: #b45309; }
+.hm-badge-purple { background: rgba(124, 58, 237, 0.12); color: #6d28d9; }
+.hm-badge-pink  { background: rgba(236, 72, 153, 0.12); color: #be185d; }
+
+/* Altersgruppen */
+.hm-badge-u13 { background: rgba(61, 90, 254, 0.12); color: #1e3a8a; }
+.hm-badge-u16 { background: rgba(245, 158, 11, 0.14); color: #b45309; }
+.hm-badge-u19 { background: rgba(124, 58, 237, 0.12); color: #6d28d9; }
+
+[data-theme="youth"] .hm-badge-u13 { background: rgba(61, 90, 254, 0.14); color: #1e3a8a; }
+[data-theme="youth"] .hm-badge-u16 { background: rgba(245, 158, 11, 0.18); color: #b45309; }
+[data-theme="youth"] .hm-badge-u19 { background: rgba(124, 58, 237, 0.14); color: #6d28d9; }
+
+/* ════════════════════════════════════════════════════════════════
+   SCALE BUTTONS (1-7 im Test)
+   ════════════════════════════════════════════════════════════════ */
+
+.scale-row {
+  display: flex;
+  gap: 0.3rem;
+  margin-top: 0.5rem;
+}
+
+.scale-btn, .hm-scale-btn {
+  flex: 1;
+  min-width: 36px;
+  height: 42px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 0.88rem;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--muted);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: var(--font-body);
+}
+
+.scale-btn:hover, .hm-scale-btn:hover {
+  border-color: var(--ink);
+  color: var(--ink);
+}
+
+[data-theme="youth"] .scale-btn,
+[data-theme="youth"] .hm-scale-btn {
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 800;
+  height: 44px;
+  background: #1a1a22;
+  color: #6e6e82;
+}
+
+.scale-btn.active, .hm-scale-btn.active {
+  color: white;
+  border-color: transparent;
+  background: var(--grad-primary);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="youth"] .scale-btn.active,
+[data-theme="youth"] .hm-scale-btn.active {
+  background: linear-gradient(135deg, #8b5cf6, #ec4899);
+  box-shadow: 0 8px 20px rgba(139, 92, 246, 0.3);
+  transform: scale(1.05);
+}
+
+.q-scale-labels, .hm-scale-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.65rem;
+  color: var(--muted);
+  margin-top: 0.35rem;
+  padding: 0 0.2rem;
+  font-weight: 500;
+}
+
+/* ════════════════════════════════════════════════════════════════
+   PROGRESS
+   ════════════════════════════════════════════════════════════════ */
+
+.progress-row, .hm-progress-row {
+  display: flex;
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.progress-seg, .hm-progress-seg {
+  flex: 1;
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.08);
+  transition: background 0.3s;
+}
+
+[data-theme="youth"] .progress-seg,
+[data-theme="youth"] .hm-progress-seg {
+  background: #222230;
+}
+
+.progress-seg.done, .hm-progress-seg.done {
+  background: var(--success);
+}
+
+[data-theme="youth"] .progress-seg.done,
+[data-theme="youth"] .hm-progress-seg.done {
+  background: linear-gradient(90deg, #8b5cf6, #ec4899);
+}
+
+/* ════════════════════════════════════════════════════════════════
+   SECTION LABEL + BREADCRUMB
+   ════════════════════════════════════════════════════════════════ */
+
+.hm-section {
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.8rem;
+}
+
+[data-theme="coach"] .hm-section::before {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 1px;
+  background: var(--accent);
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+[data-theme="youth"] .hm-section {
+  color: #8b5cf6;
+}
+
+.hm-breadcrumb {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+  margin-bottom: 1rem;
+  font-family: var(--font-mono);
+}
+
+[data-theme="youth"] .hm-breadcrumb {
+  font-family: var(--font-body);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+/* ════════════════════════════════════════════════════════════════
+   ACCENT WORD (Gradient Highlight)
+   ════════════════════════════════════════════════════════════════ */
+
+.accent-word {
+  background: var(--grad-text, var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+[data-theme="coach"] .accent-word {
+  color: var(--accent);
+  background: none;
+  -webkit-text-fill-color: currentColor;
+}
+
+.accent-word-amber {
+  background: linear-gradient(135deg, #f59e0b, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.accent-word-blue {
+  color: var(--accent-3);
+}
+
+.gradient-text {
+  background: var(--grad-text, linear-gradient(135deg, #7c3aed, #ec4899));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ════════════════════════════════════════════════════════════════
+   YOUTH TYPE CARD (Haupt-Karte Spieler-Dashboard)
+   ════════════════════════════════════════════════════════════════ */
+
+.youth-type-card {
+  background: #141419;
+  border-radius: 20px;
+  padding: 24px 22px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.youth-type-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -30%;
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.18), transparent 60%);
+  pointer-events: none;
+}
+
+.youth-type-card::after {
+  content: '';
+  position: absolute;
+  bottom: -40%;
+  left: -20%;
+  width: 260px;
+  height: 260px;
+  background: radial-gradient(circle, rgba(249, 115, 22, 0.12), transparent 60%);
+  pointer-events: none;
+}
+
+.youth-type-card > * { position: relative; z-index: 1; }
+
+.youth-type-card .type-family-tag {
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+  margin-bottom: 0.5rem;
+}
+
+.youth-type-emoji {
+  font-size: 3.2rem;
+  display: inline-block;
+  filter: drop-shadow(0 4px 12px rgba(139, 92, 246, 0.3));
+  line-height: 1;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+/* Coach-Variante (clean) */
+[data-theme="coach"] .youth-type-card {
+  background: var(--surface);
+  border: 1px solid var(--card-border);
+  box-shadow: var(--shadow-sm);
+  border-radius: 12px;
+}
+
+[data-theme="coach"] .youth-type-card::before,
+[data-theme="coach"] .youth-type-card::after { display: none; }
+
+[data-theme="coach"] .youth-type-emoji {
+  filter: none;
+}
+
+[data-theme="coach"] .youth-type-card .type-family-tag {
+  color: var(--accent);
+}
+
+/* ════════════════════════════════════════════════════════════════
+   AVATAR + STATUS DOT
+   ════════════════════════════════════════════════════════════════ */
+
+.hm-avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--surface-2);
+  border: 1px solid var(--card-border);
+  color: var(--ink);
+  font-weight: 700;
+  font-size: 0.88rem;
+  font-family: var(--font-body);
+  letter-spacing: -0.01em;
+}
+
+[data-theme="youth"] .hm-avatar {
+  background: linear-gradient(135deg, #8b5cf6, #ec4899);
+  color: white;
+  border: none;
+  font-weight: 800;
+}
+
+.hm-status-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px var(--surface);
+}
+
+.hm-status-dot.done    { background: var(--success); }
+.hm-status-dot.pending { background: var(--danger); }
+.hm-status-dot.waiting { background: var(--gold); }
+
+/* ════════════════════════════════════════════════════════════════
+   YOUTH QUOTE (Tipp-Box)
+   ════════════════════════════════════════════════════════════════ */
+
+.youth-quote {
+  padding: 18px 20px;
+  border-radius: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  position: relative;
+  overflow: hidden;
+}
+
+.youth-quote::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #8b5cf6, #ec4899, #f97316);
+}
+
+.youth-quote-text {
+  font-family: 'Syne', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  position: relative;
+}
+
+.youth-quote-caption {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-top: 0.6rem;
+}
+
+[data-theme="coach"] .youth-quote {
+  background: var(--surface);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  overflow: visible;
+}
+
+[data-theme="coach"] .youth-quote::before {
+  display: none;
+}
+
+[data-theme="coach"] .youth-quote-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* ════════════════════════════════════════════════════════════════
+   YOUTH BOTTOM TAB BAR
+   ════════════════════════════════════════════════════════════════ */
+
+.youth-tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.4rem 0.5rem;
+  padding-bottom: calc(0.4rem + env(safe-area-inset-bottom));
+  background: rgba(10, 10, 15, 0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.youth-tab-btn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 0.4rem 0.3rem;
+  font-size: 0.55rem;
+  font-weight: 700;
+  color: #6e6e82;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-radius: 10px;
+  transition: all 0.15s;
+}
+
+.youth-tab-btn.active {
+  color: #8b5cf6;
+}
+
+.youth-tab-icon {
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: 2px 10px;
+  border-radius: 10px;
+  transition: all 0.15s;
+}
+
+.youth-tab-btn.active .youth-tab-icon {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(236, 72, 153, 0.10));
+}
+
+/* Extra Bottom padding damit Content nicht hinter Tab-Bar verschwindet */
+[data-theme="youth"] main {
+  padding-bottom: 6rem !important;
+}
+
+@media (min-width: 768px) {
+  [data-theme="youth"] main {
+    padding-bottom: 2rem !important;
+  }
+}
+
+/* ════════════════════════════════════════════════════════════════
+   QUESTION CARD (Test / Rate)
+   ════════════════════════════════════════════════════════════════ */
+
+.q-card, .hm-q-card {
+  padding: 1rem 1.15rem;
+  border-radius: 20px;
+  background: var(--surface);
+  border: 1px solid var(--card-border);
+  margin-bottom: 0.7rem;
+  transition: border-color 0.18s, box-shadow 0.18s;
+}
+
+.q-card:hover, .hm-q-card:hover {
+  border-color: var(--border-strong);
+  box-shadow: var(--shadow-xs);
+}
+
+[data-theme="youth"] .q-card,
+[data-theme="youth"] .hm-q-card {
+  border-radius: 14px;
+  background: #1a1a22;
+  border-color: rgba(255,255,255,0.06);
+}
+
+.q-num, .hm-q-num {
+  font-size: 0.68rem;
+  font-weight: 800;
+  color: var(--accent);
+  opacity: 0.55;
+  margin-right: 0.4rem;
+}
+
+.q-text, .hm-q-text {
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--ink);
+}
+
+/* ════════════════════════════════════════════════════════════════
+   PLAYER ROW (Coach-List)
+   ════════════════════════════════════════════════════════════════ */
+
+.player-row, .hm-player-row {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.85rem 1rem;
+  border-radius: 18px;
+  margin-bottom: 0.5rem;
+  background: var(--surface);
+  border: 1px solid var(--card-border);
+  transition: box-shadow 0.18s, transform 0.18s;
+  cursor: pointer;
+}
+
+.player-row:hover, .hm-player-row:hover {
+  box-shadow: var(--shadow-sm);
+  transform: translateY(-1px);
+}
+
+.player-emoji, .hm-player-emoji { font-size: 1.6rem; line-height: 1; }
+.player-name, .hm-player-name {
+  font-weight: 700;
+  font-size: 0.92rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  color: var(--ink);
+}
+.player-meta, .hm-player-meta {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+/* ════════════════════════════════════════════════════════════════
+   DIMENSION BAR (Ergebnis-Vergleich)
+   ════════════════════════════════════════════════════════════════ */
+
+.dim-row, .hm-dim-row { margin-bottom: 0.9rem; }
+
+.dim-head, .hm-dim-head {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.66rem;
+  font-weight: 800;
+  margin-bottom: 0.25rem;
+  letter-spacing: 0.02em;
+}
+
+.dim-bar-wrap, .hm-dim-bar-wrap {
+  position: relative;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.06);
+  overflow: hidden;
+}
+
+[data-theme="youth"] .dim-bar-wrap,
+[data-theme="youth"] .hm-dim-bar-wrap {
+  background: #222230;
+  height: 6px;
+}
+
+.dim-bar, .hm-dim-bar {
+  position: absolute;
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.6s cubic-bezier(.2,.8,.2,1);
+}
+
+.dim-center, .hm-dim-center {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background: rgba(15, 23, 42, 0.18);
+}
+
+[data-theme="youth"] .dim-center,
+[data-theme="youth"] .hm-dim-center {
+  width: 1px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* ════════════════════════════════════════════════════════════════
+   FAMILY GRID (Team-DNA)
+   ════════════════════════════════════════════════════════════════ */
+
+.fam-grid, .hm-fam-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.7rem;
+}
+
+.fam-card, .hm-fam-card {
+  text-align: center;
+  padding: 1rem 0.5rem;
+  border-radius: 18px;
+  background: var(--surface-2);
+  border: 1px solid var(--card-border);
+  transition: transform 0.18s, box-shadow 0.18s;
+}
+
+.fam-card:hover, .hm-fam-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+.fam-icon, .hm-fam-icon { font-size: 1.5rem; line-height: 1; }
+.fam-count, .hm-fam-count {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin-top: 0.25rem;
+}
+.fam-name, .hm-fam-name {
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  margin-top: 0.15rem;
+}
+.fam-pct, .hm-fam-pct {
+  font-size: 0.65rem;
+  color: var(--muted);
+  margin-top: 0.1rem;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .fam-grid, .hm-fam-grid { grid-template-columns: repeat(2, 1fr); gap: 0.55rem; }
+}
+
+/* ════════════════════════════════════════════════════════════════
+   STRENGTHS LIST
+   ════════════════════════════════════════════════════════════════ */
+
+.strength-item, .hm-strength-item {
+  font-size: 0.88rem;
+  padding: 0.45rem 0 0.45rem 1.3rem;
+  position: relative;
+  line-height: 1.5;
+}
+
+.strength-item::before, .hm-strength-item::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--success);
+  font-weight: 800;
+}
+
+/* ════════════════════════════════════════════════════════════════
+   ANIMATIONS
+   ════════════════════════════════════════════════════════════════ */
+
+.fade-in {
+  animation: fadeIn 0.4s cubic-bezier(.2,.8,.2,1);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.hm-bounce-in {
+  animation: bounceIn 0.6s cubic-bezier(.34,1.56,.64,1);
+}
+
+@keyframes bounceIn {
+  0% { opacity: 0; transform: scale(0.85); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+/* ════════════════════════════════════════════════════════════════
+   UTILITY
+   ════════════════════════════════════════════════════════════════ */
+
+.text-mono { font-family: var(--font-mono); }
+.text-display { font-family: var(--font-display); }
+
+/* Card Link (hover effect) */
+.hm-card-link {
+  transition: transform 0.18s, box-shadow 0.18s, border-color 0.18s;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+.hm-card-link:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--border-strong);
+}
+[data-theme="youth"] .hm-card-link:hover {
+  border-color: rgba(124, 58, 237, 0.25);
+}
+
+/* Hero-Typo */
+h1.hero, .hm-hero {
+  font-family: var(--font-display);
+  font-size: 1.7rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+[data-theme="youth"] h1.hero,
+[data-theme="youth"] .hm-hero {
+  font-family: 'Syne', sans-serif;
+  font-size: 2.3rem;
+  font-weight: 800;
+  letter-spacing: -0.045em;
+}
+
+/* Hero-Sub */
+.hero-sub, .hm-hero-sub {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-top: 0.4rem;
+  line-height: 1.5;
+}
+
+[data-theme="youth"] .hero-sub,
+[data-theme="youth"] .hm-hero-sub {
+  font-size: 0.95rem;
+}
+
+/* ════════════════════════════════════════════════════════════════
+   RESPONSIVE
+   ════════════════════════════════════════════════════════════════ */
+
+@media (max-width: 640px) {
+  body { font-size: 15px; }
+  h1.hero, .hm-hero { font-size: 1.6rem; }
+  [data-theme="youth"] h1.hero, [data-theme="youth"] .hm-hero { font-size: 1.8rem; }
+  .hm-kpi-value { font-size: 1.6rem; }
+  [data-theme="youth"] .hm-kpi-value { font-size: 1.8rem; }
+  .card, .hm-card { padding: 1.1rem; border-radius: 12px; }
+  [data-theme="youth"] .card,
+  [data-theme="youth"] .hm-card { border-radius: 14px; }
+  .youth-type-card { padding: 20px 18px; border-radius: 18px; }
+}
+
+/* ════════════════════════════════════════════════════════════════
+   LEGACY ALIASES (alte Klassen die im Code vorkommen könnten)
+   ════════════════════════════════════════════════════════════════ */
+
+.card-header {
+  padding-bottom: 0.8rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.text-accent { color: var(--accent); }
+.text-muted { color: var(--muted); }
+.text-ink { color: var(--ink); }
+.text-success { color: var(--success); }
+.text-danger { color: var(--danger); }
+
+.bg-surface { background: var(--surface); }
+.bg-surface-2 { background: var(--surface-2); }
+
+.border-default { border-color: var(--border); }
+.border-strong { border-color: var(--border-strong); }

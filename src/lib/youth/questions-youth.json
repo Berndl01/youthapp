@@ -1,0 +1,2251 @@
+{
+  "_meta": {
+    "version": 1,
+    "description": "Humatrix Youth Academy - altersspezifische Fragen",
+    "age_groups": [
+      "u13",
+      "u16",
+      "u19"
+    ],
+    "age_group_labels": {
+      "u13": "U13 (12-13 Jahre)",
+      "u16": "U16 (14-16 Jahre)",
+      "u19": "U19 (17-19 Jahre)"
+    },
+    "topics": [
+      "family",
+      "school",
+      "friends_social",
+      "self_image",
+      "future"
+    ]
+  },
+  "player_selftest_u13": [
+    {
+      "id": 1,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Wenn ich im Training etwas Neues lerne, bin ich richtig stolz."
+    },
+    {
+      "id": 2,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Gewinnen ist für mich das Allerschönste im Sport."
+    },
+    {
+      "id": 3,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich möchte in Schule und Sport jeden Tag ein bisschen besser werden."
+    },
+    {
+      "id": 4,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Wenn wir verlieren, bin ich richtig traurig — auch wenn ich gut gespielt habe."
+    },
+    {
+      "id": 5,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Wenn ein Freund mir einen Trick beibringt, probiere ich ihn so oft bis er klappt."
+    },
+    {
+      "id": 6,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Ich vergleiche mich oft mit anderen aus meiner Mannschaft."
+    },
+    {
+      "id": 7,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Meine Eltern freuen sich am meisten, wenn ich mich anstrenge — nicht nur wenn wir gewinnen."
+    },
+    {
+      "id": 8,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Wenn ich ein Tor schieße, fühle ich mich wie ein Star."
+    },
+    {
+      "id": 9,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Fehler sind okay — so lernt man dazu."
+    },
+    {
+      "id": 10,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Tabellen und Platzierungen schaue ich mir gerne an."
+    },
+    {
+      "id": 11,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich schaue gerne Videos um zu verstehen wie ein Profi etwas macht."
+    },
+    {
+      "id": 12,
+      "dim": "drive",
+      "pole": "B",
+      "text": "In einem wichtigen Moment will ich der sein, der den entscheidenden Ball spielt."
+    },
+    {
+      "id": 13,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich finde es cool, wenn ein Mitspieler sich verbessert — auch wenn er mich einholt."
+    },
+    {
+      "id": 14,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Wenn ich Trainingsbester war, erzähle ich das gerne zu Hause."
+    },
+    {
+      "id": 15,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich glaube, dass harte Arbeit wichtiger ist als Talent."
+    },
+    {
+      "id": 16,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Ich schaue mir die Topscorer-Liste unserer Liga gerne an."
+    },
+    {
+      "id": 17,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Wenn ich etwas nicht kann, bleibe ich dran bis es klappt."
+    },
+    {
+      "id": 18,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich übe auch alleine im Garten oder im Park an meinen Moves."
+    },
+    {
+      "id": 19,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Training mit meinen Freunden macht mir am meisten Spaß."
+    },
+    {
+      "id": 20,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Manchmal brauche ich nach der Schule einfach meine Ruhe."
+    },
+    {
+      "id": 21,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Ich liebe es, wenn wir als Team nach dem Sieg zusammen jubeln."
+    },
+    {
+      "id": 22,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich brauche nicht immer jemanden um mich zum Training zu motivieren."
+    },
+    {
+      "id": 23,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Wenn meine Freunde absagen, habe ich weniger Lust aufs Training."
+    },
+    {
+      "id": 24,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich schaue gerne allein Highlight-Videos um neue Tricks zu lernen."
+    },
+    {
+      "id": 25,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Ich poste gerne Fotos mit meiner Mannschaft."
+    },
+    {
+      "id": 26,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Lange Pausen mit der Mannschaft strengen mich manchmal an."
+    },
+    {
+      "id": 27,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Ich laufe in der Kabine gerne herum und quatsche mit allen."
+    },
+    {
+      "id": 28,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Wenn meine Eltern mich fragen wie es war, mag ich kurze Antworten geben."
+    },
+    {
+      "id": 29,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Nach einem Sieg will ich das allen erzählen — Mama, Papa, meinen Freunden."
+    },
+    {
+      "id": 30,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Zuhause brauche ich Zeit für mich allein, Zocken oder Musik hören."
+    },
+    {
+      "id": 31,
+      "dim": "energy",
+      "pole": "B",
+      "text": "In der Schulpause bin ich am liebsten mit meiner Clique unterwegs."
+    },
+    {
+      "id": 32,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich kann mich gut alleine motivieren auch wenn niemand zuschaut."
+    },
+    {
+      "id": 33,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Applaus und Anfeuerung geben mir richtig viel Energie."
+    },
+    {
+      "id": 34,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich denke oft allein nach, was ich besser machen könnte."
+    },
+    {
+      "id": 35,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Wenn ein Mitspieler wütend wird, bleibe ich meistens ruhig."
+    },
+    {
+      "id": 36,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Wenn ich einen Fehler mache, ärgere ich mich erstmal richtig."
+    },
+    {
+      "id": 37,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Prüfungen in der Schule machen mir nicht so schnell Angst."
+    },
+    {
+      "id": 38,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Vor wichtigen Spielen bin ich richtig aufgeregt — manchmal zu sehr."
+    },
+    {
+      "id": 39,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Wenn Eltern streiten sollten, werde ich nicht sofort mitgerissen."
+    },
+    {
+      "id": 40,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Wenn mich jemand ungerecht behandelt, koche ich innerlich."
+    },
+    {
+      "id": 41,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Wenn ich etwas Trauriges erlebe, spreche ich nach einer Weile gerne darüber."
+    },
+    {
+      "id": 42,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Ich zeige meine Gefühle meistens ziemlich deutlich."
+    },
+    {
+      "id": 43,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Beleidigungen auf Social Media lasse ich meistens an mir abprallen."
+    },
+    {
+      "id": 44,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Blöde Kommentare im Internet können mich ganz schön runterziehen."
+    },
+    {
+      "id": 45,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Ich kann auch nach einer Niederlage gut schlafen."
+    },
+    {
+      "id": 46,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Nach einer Niederlage denke ich noch stundenlang dran."
+    },
+    {
+      "id": 47,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Wenn meine Eltern mich kritisieren, kann ich das meistens annehmen."
+    },
+    {
+      "id": 48,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Wenn mich meine Eltern kritisieren, reagiere ich schnell eingeschnappt."
+    },
+    {
+      "id": 49,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Auf dem Platz bleibe ich meistens konzentriert, auch wenn es chaotisch wird."
+    },
+    {
+      "id": 50,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Wenn etwas schiefläuft, merkt man mir das auch an."
+    },
+    {
+      "id": 51,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Streit mit Freunden belastet mich nicht so lange."
+    },
+    {
+      "id": 52,
+      "dim": "role",
+      "pole": "A",
+      "text": "In Gruppenarbeiten in der Schule übernehme ich gerne die Leitung."
+    },
+    {
+      "id": 53,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich höre in der Gruppe lieber erst mal zu, bevor ich was sage."
+    },
+    {
+      "id": 54,
+      "dim": "role",
+      "pole": "A",
+      "text": "Im Training sage ich manchmal Mitspielern an, wo sie hinlaufen sollen."
+    },
+    {
+      "id": 55,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich folge gerne den Ideen meiner Freunde wenn sie was vorschlagen."
+    },
+    {
+      "id": 56,
+      "dim": "role",
+      "pole": "A",
+      "text": "Wenn in einer Pause keiner was tut, schlage ich was vor."
+    },
+    {
+      "id": 57,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich bin eher ruhig und beobachte viel."
+    },
+    {
+      "id": 58,
+      "dim": "role",
+      "pole": "A",
+      "text": "Auch wenn ich jünger bin, traue ich mich meine Meinung zu sagen."
+    },
+    {
+      "id": 59,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich mag es, wenn klare Regeln da sind die alle befolgen."
+    },
+    {
+      "id": 60,
+      "dim": "role",
+      "pole": "A",
+      "text": "Wenn wir zu Hause entscheiden was wir essen, sag ich gerne was ich will."
+    },
+    {
+      "id": 61,
+      "dim": "role",
+      "pole": "B",
+      "text": "Bei Entscheidungen passt es mir meistens, mich den anderen anzupassen."
+    },
+    {
+      "id": 62,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ich poste selbst Content auf Social Media, nicht nur schauen."
+    },
+    {
+      "id": 63,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich schaue lieber anderen bei TikTok zu als selbst zu posten."
+    },
+    {
+      "id": 64,
+      "dim": "role",
+      "pole": "A",
+      "text": "Wenn ich etwas ungerecht finde, sage ich es laut."
+    },
+    {
+      "id": 65,
+      "dim": "role",
+      "pole": "B",
+      "text": "Streit vermeide ich lieber, auch wenn ich anderer Meinung bin."
+    },
+    {
+      "id": 66,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ich stelle mir gerne vor, später mal Kapitän zu sein."
+    },
+    {
+      "id": 67,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich will lieber ein gutes Teammitglied sein als der Boss."
+    },
+    {
+      "id": 68,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ich ziehe bei einer Idee gerne die anderen mit."
+    }
+  ],
+  "player_selftest_u16": [
+    {
+      "id": 1,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich messe meinen Erfolg daran, ob ich mich weiterentwickelt habe."
+    },
+    {
+      "id": 2,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Am Ende zählt im Sport nur, ob man gewinnt oder verliert."
+    },
+    {
+      "id": 3,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich trainiere am liebsten gezielt an meinen Schwächen."
+    },
+    {
+      "id": 4,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Ein gutes Spiel ohne Sieg fühlt sich für mich nach Niederlage an."
+    },
+    {
+      "id": 5,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Wenn ich in der Schule eine schlechte Note bekomme, will ich verstehen warum."
+    },
+    {
+      "id": 6,
+      "dim": "drive",
+      "pole": "B",
+      "text": "In der Schule vergleiche ich meine Noten oft mit denen meiner Freunde."
+    },
+    {
+      "id": 7,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich folge Accounts die mir Tipps und Trainings zeigen, nicht nur Highlights."
+    },
+    {
+      "id": 8,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Ich schaue lieber Top-Spieler-Highlights als erklärende Taktik-Videos."
+    },
+    {
+      "id": 9,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Fehler sehe ich als direkte Lernchance."
+    },
+    {
+      "id": 10,
+      "dim": "drive",
+      "pole": "B",
+      "text": "In Drucksituationen will ich derjenige sein, der liefert."
+    },
+    {
+      "id": 11,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Langfristige Entwicklung ist mir wichtiger als ein einzelner Sieg."
+    },
+    {
+      "id": 12,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Die direkte Tabelle zeigt mir am besten wo ich stehe."
+    },
+    {
+      "id": 13,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich bewundere Spieler die jahrelang konsequent an sich arbeiten."
+    },
+    {
+      "id": 14,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Ich bewundere Spieler die in den entscheidenden Momenten unantastbar sind."
+    },
+    {
+      "id": 15,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Meine Eltern sagen oft, dass sie meinen Einsatz mehr schätzen als Ergebnisse."
+    },
+    {
+      "id": 16,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Zuhause wird nach dem Spiel sofort über das Ergebnis gesprochen."
+    },
+    {
+      "id": 17,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Nach dem Training denke ich oft darüber nach, was ich gelernt habe."
+    },
+    {
+      "id": 18,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Nach einem langen Schultag brauche ich erst Zeit für mich bevor ich trainieren kann."
+    },
+    {
+      "id": 19,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Wenn ich nach der Schule ins Training gehe, treffe ich endlich wieder meine Leute."
+    },
+    {
+      "id": 20,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich trainiere regelmäßig auch alleine zusätzlich zum Mannschaftstraining."
+    },
+    {
+      "id": 21,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Ich hole mir meine Motivation hauptsächlich aus dem Team."
+    },
+    {
+      "id": 22,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Manchmal ziehe ich mich zurück, auch wenn meine Freunde Party machen."
+    },
+    {
+      "id": 23,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Wenn meine Clique loszieht, bin ich fast immer dabei."
+    },
+    {
+      "id": 24,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich scrolle lieber allein durch YouTube/TikTok als in Gruppenchats zu hängen."
+    },
+    {
+      "id": 25,
+      "dim": "energy",
+      "pole": "B",
+      "text": "In WhatsApp-Gruppen bin ich fast immer aktiv."
+    },
+    {
+      "id": 26,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich kann mich gut selbst motivieren, auch ohne Applaus."
+    },
+    {
+      "id": 27,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Ich gebe mein Bestes wenn viele zuschauen."
+    },
+    {
+      "id": 28,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich brauche nicht ständig Rückmeldung um zu wissen wo ich stehe."
+    },
+    {
+      "id": 29,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Ich liebe es, wenn Coach und Team mich nach einem guten Move feiern."
+    },
+    {
+      "id": 30,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Zu Hause rede ich nicht viel über meinen Tag — ich verarbeite das für mich."
+    },
+    {
+      "id": 31,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Ich erzähle meinen Eltern ziemlich ausführlich wie es im Training war."
+    },
+    {
+      "id": 32,
+      "dim": "energy",
+      "pole": "A",
+      "text": "In Gruppenarbeit in der Schule brauche ich auch Phasen wo ich allein arbeiten kann."
+    },
+    {
+      "id": 33,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Gruppenarbeit in der Schule ist mir meistens lieber als Einzelarbeit."
+    },
+    {
+      "id": 34,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Wenn ich zu viele Leute den ganzen Tag um mich habe, fühle ich mich ausgelaugt."
+    },
+    {
+      "id": 35,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Auch unter Druck bleibe ich meistens ruhig und klar im Kopf."
+    },
+    {
+      "id": 36,
+      "dim": "mental",
+      "pole": "B",
+      "text": "In wichtigen Momenten geht bei mir die Intensität richtig hoch."
+    },
+    {
+      "id": 37,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Schulstress kann ich meistens gut abschütteln."
+    },
+    {
+      "id": 38,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Wenn in der Schule viel los ist, merke ich es auch im Training."
+    },
+    {
+      "id": 39,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Streit mit meinen Eltern lässt mich nicht tagelang zweifeln."
+    },
+    {
+      "id": 40,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Konflikte mit meinen Eltern gehen mir ziemlich nahe."
+    },
+    {
+      "id": 41,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Negative Kommentare auf Social Media treffen mich selten persönlich."
+    },
+    {
+      "id": 42,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Wenig Likes auf einem Post können meine Laune kippen lassen."
+    },
+    {
+      "id": 43,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Nach einer Niederlage kann ich ziemlich schnell wieder abschalten."
+    },
+    {
+      "id": 44,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Eine schlechte Leistung beschäftigt mich manchmal tagelang."
+    },
+    {
+      "id": 45,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Wenn ein Freund streitet oder zickt, lass ich das nicht an mich heran."
+    },
+    {
+      "id": 46,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Wenn in der Clique dicke Luft herrscht, belastet mich das stark."
+    },
+    {
+      "id": 47,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Ich kann vor einer Prüfung meistens gut schlafen."
+    },
+    {
+      "id": 48,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Vor wichtigen Prüfungen oder Spielen liege ich manchmal stundenlang wach."
+    },
+    {
+      "id": 49,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Meine Gefühle zeige ich eher kontrolliert."
+    },
+    {
+      "id": 50,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Man sieht mir meistens direkt an wie es mir geht."
+    },
+    {
+      "id": 51,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Wenn es in meiner Familie schwierig wird, versuche ich den Kopf klar zu halten."
+    },
+    {
+      "id": 52,
+      "dim": "role",
+      "pole": "A",
+      "text": "In Gruppenprojekten in der Schule übernehme ich oft Verantwortung."
+    },
+    {
+      "id": 53,
+      "dim": "role",
+      "pole": "B",
+      "text": "In Projekten halte ich mich gerne an Aufgaben die andere verteilen."
+    },
+    {
+      "id": 54,
+      "dim": "role",
+      "pole": "A",
+      "text": "Im Team spreche ich auch mal ältere Spieler an wenn ich was verbessern würde."
+    },
+    {
+      "id": 55,
+      "dim": "role",
+      "pole": "B",
+      "text": "Gegenüber älteren Mitspielern bin ich eher zurückhaltend."
+    },
+    {
+      "id": 56,
+      "dim": "role",
+      "pole": "A",
+      "text": "Wenn zu Hause Entscheidungen anstehen, sag ich klar meine Meinung."
+    },
+    {
+      "id": 57,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich halte mich in Familienentscheidungen lieber raus."
+    },
+    {
+      "id": 58,
+      "dim": "role",
+      "pole": "A",
+      "text": "Auf Social Media habe ich einen eigenen Stil den ich zeige."
+    },
+    {
+      "id": 59,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich orientiere mich auf Social Media an Trends und großen Accounts."
+    },
+    {
+      "id": 60,
+      "dim": "role",
+      "pole": "A",
+      "text": "In meiner Clique bin ich oft der, der Ideen einwirft."
+    },
+    {
+      "id": 61,
+      "dim": "role",
+      "pole": "B",
+      "text": "In meiner Clique bin ich eher der, der Ideen unterstützt."
+    },
+    {
+      "id": 62,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ich will später nicht einfach 'einer von vielen' sein."
+    },
+    {
+      "id": 63,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich will später einfach das machen was sich stimmig anfühlt — ohne Druck aufzufallen."
+    },
+    {
+      "id": 64,
+      "dim": "role",
+      "pole": "A",
+      "text": "Wenn etwas ungerecht ist, sage ich das — auch vor Lehrern oder Trainern."
+    },
+    {
+      "id": 65,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich vermeide es, mich mit Autoritätspersonen anzulegen."
+    },
+    {
+      "id": 66,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ich traue mir zu, eines Tages Kapitän zu sein."
+    },
+    {
+      "id": 67,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich übernehme lieber eine Rolle im Team die still und stark ist."
+    },
+    {
+      "id": 68,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ich kann andere mitreißen, wenn ich selber überzeugt bin."
+    }
+  ],
+  "player_selftest_u19": [
+    {
+      "id": 1,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Mein persönlicher Fortschritt ist für mich wichtiger als öffentliche Anerkennung."
+    },
+    {
+      "id": 2,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Ergebnisse sind für mich am Ende der ehrlichste Leistungsindikator."
+    },
+    {
+      "id": 3,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich arbeite systematisch an meinen Entwicklungszielen — auch ohne Aufforderung."
+    },
+    {
+      "id": 4,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Ich will in jedem Match der beste Spieler auf meiner Position sein."
+    },
+    {
+      "id": 5,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Schule/Ausbildung und Sport sehe ich beide als Chance mich weiterzuentwickeln."
+    },
+    {
+      "id": 6,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Sportliche Resultate haben für mich klar höhere Priorität als Schulnoten."
+    },
+    {
+      "id": 7,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich nutze Social Media gezielt, um von anderen Athleten zu lernen."
+    },
+    {
+      "id": 8,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Sichtbarkeit in sozialen Medien kann mein Karriereweg zusätzlich unterstützen."
+    },
+    {
+      "id": 9,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Fehler analysiere ich ruhig und leite konkrete nächste Schritte ab."
+    },
+    {
+      "id": 10,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Ich lebe für die entscheidenden Momente in denen alles auf dem Spiel steht."
+    },
+    {
+      "id": 11,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Langfristige Karriereplanung ist mir wichtiger als kurzfristiger Applaus."
+    },
+    {
+      "id": 12,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Was zählt ist was ich jetzt in dieser Saison liefern kann."
+    },
+    {
+      "id": 13,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich orientiere mich an Athleten die langfristig konstant stark geblieben sind."
+    },
+    {
+      "id": 14,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Ich orientiere mich an Athleten die in Drucksituationen unantastbar sind."
+    },
+    {
+      "id": 15,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Meine Eltern unterstützen meinen Weg, lassen mir aber meine eigenen Entscheidungen."
+    },
+    {
+      "id": 16,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Meine Familie hat hohe Erwartungen — und diese treiben mich mit an."
+    },
+    {
+      "id": 17,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich dokumentiere für mich selbst meinen Fortschritt."
+    },
+    {
+      "id": 18,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Mir ist wichtig, neben dem Team auch Zeiten des Rückzugs zu haben."
+    },
+    {
+      "id": 19,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Ich lade meine Energie hauptsächlich im Mannschaftskontext auf."
+    },
+    {
+      "id": 20,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich plane mein Training/Studium/Arbeit weitgehend eigenverantwortlich."
+    },
+    {
+      "id": 21,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Ich bin deutlich produktiver wenn ich mit anderen zusammen lerne oder arbeite."
+    },
+    {
+      "id": 22,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Nach intensiven Tagen brauche ich Alleinzeit um wieder klarzukommen."
+    },
+    {
+      "id": 23,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Nach intensiven Tagen brauche ich Austausch mit Menschen die ich vertraue."
+    },
+    {
+      "id": 24,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich bin nicht darauf angewiesen, online ständig präsent zu sein."
+    },
+    {
+      "id": 25,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Ich poste regelmäßig und halte meine Reichweite aktiv am Laufen."
+    },
+    {
+      "id": 26,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Meine Motivation kommt primär aus mir selbst."
+    },
+    {
+      "id": 27,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Der Zuspruch meines Umfelds ist ein wichtiger Teil meiner Motivation."
+    },
+    {
+      "id": 28,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich setze mir Ziele ohne viel öffentlich darüber zu reden."
+    },
+    {
+      "id": 29,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Wenn ich Ziele öffentlich mache, halte ich sie eher ein."
+    },
+    {
+      "id": 30,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Zu Hause spreche ich wenig über Details meines Sport-/Karrierewegs."
+    },
+    {
+      "id": 31,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Ich tausche mich mit meinen Eltern regelmäßig über meine Entscheidungen aus."
+    },
+    {
+      "id": 32,
+      "dim": "energy",
+      "pole": "A",
+      "text": "In großen Gruppen kostet es mich Energie, ständig dabei zu sein."
+    },
+    {
+      "id": 33,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Große Gruppen pushen mich — ich brauche den Input anderer."
+    },
+    {
+      "id": 34,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich bin jemand der gut alleine arbeiten kann wenn es drauf ankommt."
+    },
+    {
+      "id": 35,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Ich behalte auch in schwierigen Phasen meistens einen kühlen Kopf."
+    },
+    {
+      "id": 36,
+      "dim": "mental",
+      "pole": "B",
+      "text": "In entscheidenden Momenten fahre ich emotional bewusst hoch."
+    },
+    {
+      "id": 37,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Erwartungen von außen setzen mich nicht schnell unter Druck."
+    },
+    {
+      "id": 38,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Hohe Erwartungen spüre ich körperlich deutlich."
+    },
+    {
+      "id": 39,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Ich gehe mit Rückschlägen sachlich um und ziehe meine Schlüsse."
+    },
+    {
+      "id": 40,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Rückschläge treffen mich emotional und nehmen mich länger mit."
+    },
+    {
+      "id": 41,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Negative Online-Reaktionen lassen meine Stimmung selten kippen."
+    },
+    {
+      "id": 42,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Öffentliche Kritik im Netz bleibt mir länger im Kopf als ich möchte."
+    },
+    {
+      "id": 43,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Schlaf und Erholung sind für mich ein strategisches Werkzeug."
+    },
+    {
+      "id": 44,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Wenn ich im Flow bin, vernachlässige ich manchmal Schlaf und Regeneration."
+    },
+    {
+      "id": 45,
+      "dim": "mental",
+      "pole": "A",
+      "text": "In Konflikten mit Freunden oder Familie kann ich Distanz wahren."
+    },
+    {
+      "id": 46,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Konflikte in meinem engsten Kreis berühren mich emotional stark."
+    },
+    {
+      "id": 47,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Vor einer Prüfung oder einem wichtigen Spiel bin ich ruhig und fokussiert."
+    },
+    {
+      "id": 48,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Vor wichtigen Terminen werde ich nervös — das ist auch mein Motor."
+    },
+    {
+      "id": 49,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Meine Emotionen kontrolliere ich bewusst, auch wenn viel los ist."
+    },
+    {
+      "id": 50,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Ich lasse Emotionen lieber raus als sie runterzuschlucken."
+    },
+    {
+      "id": 51,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Ich kann mich nach einer Niederlage innerhalb eines Tages neu aufstellen."
+    },
+    {
+      "id": 52,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ich übernehme Verantwortung, auch wenn sie unangenehm ist."
+    },
+    {
+      "id": 53,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich bringe meine Stärke lieber als verlässlicher Part des Teams ein."
+    },
+    {
+      "id": 54,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ich kommuniziere meinen Standpunkt klar, auch gegenüber Trainern oder Mentoren."
+    },
+    {
+      "id": 55,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich vertraue erfahrenen Menschen in meinem Umfeld und folge ihrem Rat."
+    },
+    {
+      "id": 56,
+      "dim": "role",
+      "pole": "A",
+      "text": "In meiner Familie gestalte ich Entscheidungen aktiv mit."
+    },
+    {
+      "id": 57,
+      "dim": "role",
+      "pole": "B",
+      "text": "Wichtige Entscheidungen treffe ich lieber im Austausch mit meiner Familie."
+    },
+    {
+      "id": 58,
+      "dim": "role",
+      "pole": "A",
+      "text": "Auf meinen Kanälen habe ich einen klaren eigenen Ausdruck entwickelt."
+    },
+    {
+      "id": 59,
+      "dim": "role",
+      "pole": "B",
+      "text": "Online verhalte ich mich bewusst zurückhaltend und kontrolliert."
+    },
+    {
+      "id": 60,
+      "dim": "role",
+      "pole": "A",
+      "text": "In Gruppen übernehme ich oft die Rolle, Struktur zu bringen."
+    },
+    {
+      "id": 61,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich unterstütze lieber die Person, die gerade führt."
+    },
+    {
+      "id": 62,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ich gestalte meine Zukunft aktiv, auch wenn die Richtung noch offen ist."
+    },
+    {
+      "id": 63,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich lasse mich von passenden Gelegenheiten leiten die sich ergeben."
+    },
+    {
+      "id": 64,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ungerechtigkeit spreche ich offen an, auch wenn es unbequem wird."
+    },
+    {
+      "id": 65,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich suche lieber einen diplomatischen Weg als direkte Konfrontation."
+    },
+    {
+      "id": 66,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ich traue mir zu, eine Mannschaft als Kapitän zu führen."
+    },
+    {
+      "id": 67,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich führe lieber durch Leistung als durch Worte."
+    },
+    {
+      "id": 68,
+      "dim": "role",
+      "pole": "A",
+      "text": "Meine Überzeugung kann Menschen in meinem Umfeld mitnehmen."
+    }
+  ],
+  "external_assessment_u13": [
+    {
+      "id": 1,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Der Spieler probiert Neues aus und bleibt an Aufgaben dran."
+    },
+    {
+      "id": 2,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Der Spieler zeigt deutliche Freude am Sieg und an Vergleichssituationen."
+    },
+    {
+      "id": 3,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Der Spieler freut sich sichtbar über eigene Fortschritte."
+    },
+    {
+      "id": 4,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Der Spieler schaut regelmäßig auf Ergebnisse und Statistiken."
+    },
+    {
+      "id": 5,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Der Spieler nimmt Feedback als Lernchance an."
+    },
+    {
+      "id": 6,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Der Spieler kann auch alleine gut am Ball bleiben."
+    },
+    {
+      "id": 7,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Der Spieler blüht in der Gruppe sichtbar auf."
+    },
+    {
+      "id": 8,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Der Spieler braucht zwischendurch Phasen des Rückzugs."
+    },
+    {
+      "id": 9,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Der Spieler sucht aktiv den Kontakt zu Mitspielern."
+    },
+    {
+      "id": 10,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Der Spieler wirkt unabhängig von äußerem Applaus."
+    },
+    {
+      "id": 11,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Der Spieler bleibt bei Fehlern ruhig und spielt weiter."
+    },
+    {
+      "id": 12,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Der Spieler zeigt seine Emotionen sehr offen."
+    },
+    {
+      "id": 13,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Der Spieler lässt sich von Zwischenständen nicht aus der Ruhe bringen."
+    },
+    {
+      "id": 14,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Der Spieler reagiert intensiv auf Rückschläge."
+    },
+    {
+      "id": 15,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Der Spieler wirkt auch in hitzigen Momenten besonnen."
+    },
+    {
+      "id": 16,
+      "dim": "role",
+      "pole": "A",
+      "text": "Der Spieler geht im Training und Spiel voran."
+    },
+    {
+      "id": 17,
+      "dim": "role",
+      "pole": "B",
+      "text": "Der Spieler ordnet sich gut in die Gruppe ein."
+    },
+    {
+      "id": 18,
+      "dim": "role",
+      "pole": "A",
+      "text": "Der Spieler spricht sich im Team für Ideen aus."
+    },
+    {
+      "id": 19,
+      "dim": "role",
+      "pole": "B",
+      "text": "Der Spieler folgt zuverlässig den Anweisungen des Trainers."
+    },
+    {
+      "id": 20,
+      "dim": "role",
+      "pole": "A",
+      "text": "Der Spieler sucht Verantwortung in wichtigen Momenten."
+    }
+  ],
+  "external_assessment_u16": [
+    {
+      "id": 1,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Der Spieler arbeitet gezielt an der eigenen Entwicklung."
+    },
+    {
+      "id": 2,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Der Spieler will in Wettkampfsituationen klar gewinnen."
+    },
+    {
+      "id": 3,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Der Spieler nimmt Feedback konstruktiv an und setzt es um."
+    },
+    {
+      "id": 4,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Der Spieler misst sich sichtbar mit Mitspielern und Gegnern."
+    },
+    {
+      "id": 5,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Der Spieler denkt langfristig über seine Entwicklung nach."
+    },
+    {
+      "id": 6,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Der Spieler kann sich auch ohne Gruppe motivieren."
+    },
+    {
+      "id": 7,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Der Spieler zieht Energie aus der Mannschaftsdynamik."
+    },
+    {
+      "id": 8,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Der Spieler braucht nach intensiven Einheiten Distanz."
+    },
+    {
+      "id": 9,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Der Spieler ist in der Kabine sozial aktiv und vernetzt."
+    },
+    {
+      "id": 10,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Der Spieler organisiert Trainingsinhalte teilweise selbst."
+    },
+    {
+      "id": 11,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Der Spieler behält unter Druck den Überblick."
+    },
+    {
+      "id": 12,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Der Spieler zeigt seine Emotionen sehr ausgeprägt."
+    },
+    {
+      "id": 13,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Der Spieler bleibt nach Niederlagen stabil und arbeitsfähig."
+    },
+    {
+      "id": 14,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Der Spieler reagiert auf Kritik emotional."
+    },
+    {
+      "id": 15,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Der Spieler wirkt in kritischen Spielphasen ausgeglichen."
+    },
+    {
+      "id": 16,
+      "dim": "role",
+      "pole": "A",
+      "text": "Der Spieler übernimmt Führungsaufgaben wenn sie anfallen."
+    },
+    {
+      "id": 17,
+      "dim": "role",
+      "pole": "B",
+      "text": "Der Spieler ordnet sich taktisch klar unter und liefert sauber."
+    },
+    {
+      "id": 18,
+      "dim": "role",
+      "pole": "A",
+      "text": "Der Spieler fordert Ball und Verantwortung aktiv ein."
+    },
+    {
+      "id": 19,
+      "dim": "role",
+      "pole": "B",
+      "text": "Der Spieler bringt sich diszipliniert als Teil des Systems ein."
+    },
+    {
+      "id": 20,
+      "dim": "role",
+      "pole": "A",
+      "text": "Der Spieler stellt etablierte Lösungen kritisch in Frage."
+    }
+  ],
+  "external_assessment_u19": [
+    {
+      "id": 1,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Der Spieler arbeitet professionell an seiner individuellen Entwicklung."
+    },
+    {
+      "id": 2,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Der Spieler will in jedem Wettkampf liefern und den Unterschied machen."
+    },
+    {
+      "id": 3,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Der Spieler betrachtet Fehler analytisch und zieht Konsequenzen."
+    },
+    {
+      "id": 4,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Der Spieler hat einen ausgeprägten Siegeswillen."
+    },
+    {
+      "id": 5,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Der Spieler plant seine Karriere bewusst langfristig."
+    },
+    {
+      "id": 6,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Der Spieler agiert selbstverantwortlich und strukturiert."
+    },
+    {
+      "id": 7,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Der Spieler funktioniert am besten im Mannschaftskontext."
+    },
+    {
+      "id": 8,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Der Spieler nimmt sich bewusst Erholungs- und Rückzugszeiten."
+    },
+    {
+      "id": 9,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Der Spieler baut aktiv Beziehungen im Team und darüber hinaus auf."
+    },
+    {
+      "id": 10,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Der Spieler braucht wenig äußere Steuerung."
+    },
+    {
+      "id": 11,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Der Spieler bleibt unter Höchstbelastung ruhig und klar."
+    },
+    {
+      "id": 12,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Der Spieler spielt mit hoher emotionaler Intensität."
+    },
+    {
+      "id": 13,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Der Spieler verarbeitet Rückschläge reflektiert."
+    },
+    {
+      "id": 14,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Der Spieler reagiert auf öffentliche Kritik merklich."
+    },
+    {
+      "id": 15,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Der Spieler trifft in Drucksituationen stabile Entscheidungen."
+    },
+    {
+      "id": 16,
+      "dim": "role",
+      "pole": "A",
+      "text": "Der Spieler übernimmt natürliche Führung im Team."
+    },
+    {
+      "id": 17,
+      "dim": "role",
+      "pole": "B",
+      "text": "Der Spieler füllt seine Rolle im System maximal aus."
+    },
+    {
+      "id": 18,
+      "dim": "role",
+      "pole": "A",
+      "text": "Der Spieler gestaltet Trainings- und Matchinhalte aktiv mit."
+    },
+    {
+      "id": 19,
+      "dim": "role",
+      "pole": "B",
+      "text": "Der Spieler ist taktisch extrem anpassungsfähig."
+    },
+    {
+      "id": 20,
+      "dim": "role",
+      "pole": "A",
+      "text": "Der Spieler zeigt Kapitänsqualitäten."
+    }
+  ],
+  "trainer_personality": [
+    {
+      "id": 1,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich messe meinen Coaching-Erfolg am Entwicklungssprung meiner Spieler*innen."
+    },
+    {
+      "id": 2,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Die Ergebnisse am Spieltag sind für mich der wichtigste Indikator meiner Arbeit."
+    },
+    {
+      "id": 3,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich investiere viel Zeit in individuelle Entwicklungspläne pro Jugendlichem."
+    },
+    {
+      "id": 4,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Gewinnen ist ein zentraler Bestandteil der Akademie-Kultur die ich mitgestalte."
+    },
+    {
+      "id": 5,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich bereite meine Trainingseinheiten am liebsten in Ruhe alleine vor."
+    },
+    {
+      "id": 6,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Ich lebe vom Austausch mit meinem Trainerstab und den Jugendlichen."
+    },
+    {
+      "id": 7,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich brauche Phasen des Rückzugs um fokussiert zu bleiben."
+    },
+    {
+      "id": 8,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Energie bekomme ich direkt aus der Dynamik der Mannschaft."
+    },
+    {
+      "id": 9,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Ich bleibe in emotional aufgeladenen Jugend-Situationen ruhig und klar."
+    },
+    {
+      "id": 10,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Ich bringe Emotion und Leidenschaft bewusst in mein Coaching ein."
+    },
+    {
+      "id": 11,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Niederlagen verarbeite ich sachlich und strukturiert."
+    },
+    {
+      "id": 12,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Bei Rückschlägen darf man mir die Enttäuschung auch ansehen."
+    },
+    {
+      "id": 13,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ich setze eine klare Richtung und erwarte dass die Mannschaft folgt."
+    },
+    {
+      "id": 14,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich passe meinen Coaching-Stil flexibel an Jugendliche und Situation an."
+    },
+    {
+      "id": 15,
+      "dim": "role",
+      "pole": "A",
+      "text": "Autorität durch Haltung ist mir wichtig."
+    },
+    {
+      "id": 16,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich baue Beziehung vor Autorität."
+    }
+  ],
+  "trainer_coaching": [
+    {
+      "id": 1,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich formuliere Entwicklungsziele gemeinsam mit jedem Jugendlichen individuell."
+    },
+    {
+      "id": 2,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Ich kommuniziere klare Leistungsstandards die jeder erreichen muss."
+    },
+    {
+      "id": 3,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich gebe viel Raum zum Ausprobieren, auch wenn Fehler passieren."
+    },
+    {
+      "id": 4,
+      "dim": "drive",
+      "pole": "B",
+      "text": "In Matches ist der Fokus klar auf dem Gewinnen."
+    },
+    {
+      "id": 5,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich nehme mir Zeit für persönliche Einzelgespräche über Entwicklung."
+    },
+    {
+      "id": 6,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Ich nutze Tabellen, Stats und Vergleiche aktiv als Motivation."
+    },
+    {
+      "id": 7,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich biete den Jugendlichen Strukturen für eigenständiges Training an."
+    },
+    {
+      "id": 8,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Meine Einheiten leben von gemeinsamer Mannschaftsenergie."
+    },
+    {
+      "id": 9,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich akzeptiere dass manche Jugendliche Rückzugsphasen brauchen."
+    },
+    {
+      "id": 10,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Teambuilding-Aktivitäten haben in meinen Einheiten festen Platz."
+    },
+    {
+      "id": 11,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich gebe Hausaufgaben die jeder selbstständig umsetzen kann."
+    },
+    {
+      "id": 12,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Ich baue bewusst viele Gruppen- und Partnerübungen ein."
+    },
+    {
+      "id": 13,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Ich coache auch in hitzigen Spielen konsequent ruhig und sachlich."
+    },
+    {
+      "id": 14,
+      "dim": "mental",
+      "pole": "B",
+      "text": "In entscheidenden Momenten hebe ich bewusst die emotionale Intensität."
+    },
+    {
+      "id": 15,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Kritik und Feedback verpacke ich bewusst in kontrollierter Form."
+    },
+    {
+      "id": 16,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Ich spreche Dinge direkt und energisch an wenn sie mich ärgern."
+    },
+    {
+      "id": 17,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Ich achte sehr auf mentale Belastung der Jugendlichen (Schule, Familie, Druck)."
+    },
+    {
+      "id": 18,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Ich fordere mentale Härte als Teil der Ausbildung."
+    },
+    {
+      "id": 19,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ich treffe die sportlichen Entscheidungen klar und alleine."
+    },
+    {
+      "id": 20,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich beziehe Jugendliche und Staff in viele Entscheidungen ein."
+    },
+    {
+      "id": 21,
+      "dim": "role",
+      "pole": "A",
+      "text": "Meine Spielidee und Aufstellung stehen vor dem Training der Woche fest."
+    },
+    {
+      "id": 22,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich passe Taktik und Aufstellung flexibel an Tagesform und Entwicklung an."
+    },
+    {
+      "id": 23,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ich erwarte Disziplin auch in Kleinigkeiten (Pünktlichkeit, Auftreten)."
+    },
+    {
+      "id": 24,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich gehe mit jugendtypischen Unregelmäßigkeiten nachsichtig um."
+    }
+  ],
+  "battery_a": [
+    {
+      "id": 1,
+      "dim": "anchor_satisfaction",
+      "pole": "A",
+      "text": "Wie zufrieden bist du aktuell insgesamt mit deiner Situation in der Akademie?"
+    },
+    {
+      "id": 2,
+      "dim": "anchor_psych_safety",
+      "pole": "A",
+      "text": "Ich traue mich im Team ehrlich zu sagen was ich denke — ohne Angst vor blöden Reaktionen."
+    },
+    {
+      "id": 3,
+      "dim": "anchor_commitment",
+      "pole": "A",
+      "text": "Ich sehe mich auch in der nächsten Saison in dieser Akademie."
+    },
+    {
+      "id": 4,
+      "dim": "anchor_alignment",
+      "pole": "A",
+      "text": "Ich weiß genau welche Rolle ich habe und was der Trainer von mir erwartet."
+    },
+    {
+      "id": 5,
+      "dim": "anchor_motivation",
+      "pole": "A",
+      "text": "Ich bin aktuell voll motiviert für die Akademie Leistung zu bringen."
+    },
+    {
+      "id": 6,
+      "dim": "leadership",
+      "pole": "A",
+      "text": "Mein Trainer behandelt mich mit Respekt."
+    },
+    {
+      "id": 7,
+      "dim": "leadership",
+      "pole": "A",
+      "text": "Ich kann mit meinem Trainer auch über schwierige Themen reden (Schule, Familie, Druck)."
+    },
+    {
+      "id": 8,
+      "dim": "leadership",
+      "pole": "A",
+      "text": "Mein Trainer gibt mir regelmäßig konkretes Feedback."
+    },
+    {
+      "id": 9,
+      "dim": "leadership",
+      "pole": "A",
+      "text": "Ich verstehe warum mein Trainer bestimmte Entscheidungen trifft."
+    },
+    {
+      "id": 10,
+      "dim": "leadership",
+      "pole": "A",
+      "text": "Mein Trainer behandelt alle Jugendlichen fair."
+    },
+    {
+      "id": 11,
+      "dim": "leadership",
+      "pole": "A",
+      "text": "Ich vertraue der fachlichen Kompetenz meines Trainers."
+    },
+    {
+      "id": 12,
+      "dim": "leadership",
+      "pole": "A",
+      "text": "Mein Trainer sieht mich als Menschen, nicht nur als Spieler."
+    },
+    {
+      "id": 13,
+      "dim": "leadership",
+      "pole": "A",
+      "text": "Ich fühle mich in wichtigen Entscheidungen angehört."
+    }
+  ],
+  "battery_b": [
+    {
+      "id": 1,
+      "dim": "anchor_satisfaction",
+      "pole": "A",
+      "text": "Wie zufrieden bist du aktuell insgesamt mit deiner Situation in der Akademie?"
+    },
+    {
+      "id": 2,
+      "dim": "anchor_psych_safety",
+      "pole": "A",
+      "text": "Ich traue mich im Team ehrlich zu sagen was ich denke — ohne Angst vor blöden Reaktionen."
+    },
+    {
+      "id": 3,
+      "dim": "anchor_commitment",
+      "pole": "A",
+      "text": "Ich sehe mich auch in der nächsten Saison in dieser Akademie."
+    },
+    {
+      "id": 4,
+      "dim": "anchor_alignment",
+      "pole": "A",
+      "text": "Ich weiß genau welche Rolle ich habe und was der Trainer von mir erwartet."
+    },
+    {
+      "id": 5,
+      "dim": "anchor_motivation",
+      "pole": "A",
+      "text": "Ich bin aktuell voll motiviert für die Akademie Leistung zu bringen."
+    },
+    {
+      "id": 6,
+      "dim": "team_climate",
+      "pole": "A",
+      "text": "In unserer Mannschaft fühle ich mich willkommen."
+    },
+    {
+      "id": 7,
+      "dim": "team_climate",
+      "pole": "A",
+      "text": "Neue Spieler werden bei uns schnell integriert."
+    },
+    {
+      "id": 8,
+      "dim": "team_climate",
+      "pole": "A",
+      "text": "Unter uns herrscht Respekt — auch wenn wir mal streiten."
+    },
+    {
+      "id": 9,
+      "dim": "team_climate",
+      "pole": "A",
+      "text": "Unsere Kabine ist frei von Mobbing oder Ausgrenzung."
+    },
+    {
+      "id": 10,
+      "dim": "team_climate",
+      "pole": "A",
+      "text": "Ich kann mich auf meine Mitspieler verlassen."
+    },
+    {
+      "id": 11,
+      "dim": "team_climate",
+      "pole": "A",
+      "text": "Wir ziehen auch in schwierigen Phasen zusammen."
+    },
+    {
+      "id": 12,
+      "dim": "team_climate",
+      "pole": "A",
+      "text": "In der Gruppe darf man auch Schwäche zeigen."
+    },
+    {
+      "id": 13,
+      "dim": "team_climate",
+      "pole": "A",
+      "text": "Konflikte werden offen angesprochen statt hinter dem Rücken verhandelt."
+    }
+  ],
+  "battery_c": [
+    {
+      "id": 1,
+      "dim": "anchor_satisfaction",
+      "pole": "A",
+      "text": "Wie zufrieden bist du aktuell insgesamt mit deiner Situation in der Akademie?"
+    },
+    {
+      "id": 2,
+      "dim": "anchor_psych_safety",
+      "pole": "A",
+      "text": "Ich traue mich im Team ehrlich zu sagen was ich denke — ohne Angst vor blöden Reaktionen."
+    },
+    {
+      "id": 3,
+      "dim": "anchor_commitment",
+      "pole": "A",
+      "text": "Ich sehe mich auch in der nächsten Saison in dieser Akademie."
+    },
+    {
+      "id": 4,
+      "dim": "anchor_alignment",
+      "pole": "A",
+      "text": "Ich weiß genau welche Rolle ich habe und was der Trainer von mir erwartet."
+    },
+    {
+      "id": 5,
+      "dim": "anchor_motivation",
+      "pole": "A",
+      "text": "Ich bin aktuell voll motiviert für die Akademie Leistung zu bringen."
+    },
+    {
+      "id": 6,
+      "dim": "development",
+      "pole": "A",
+      "text": "Ich mache in dieser Akademie spürbar Fortschritte."
+    },
+    {
+      "id": 7,
+      "dim": "development",
+      "pole": "A",
+      "text": "Ich weiß an welchen 2-3 Dingen ich gerade konkret arbeite."
+    },
+    {
+      "id": 8,
+      "dim": "development",
+      "pole": "A",
+      "text": "Schule/Ausbildung und Sport lassen sich hier gut verbinden."
+    },
+    {
+      "id": 9,
+      "dim": "development",
+      "pole": "A",
+      "text": "Ich bekomme das Training das meiner Entwicklung entspricht."
+    },
+    {
+      "id": 10,
+      "dim": "development",
+      "pole": "A",
+      "text": "Meine individuellen Ziele werden regelmäßig besprochen."
+    },
+    {
+      "id": 11,
+      "dim": "development",
+      "pole": "A",
+      "text": "Ich sehe Möglichkeiten auf das nächste Level zu kommen."
+    },
+    {
+      "id": 12,
+      "dim": "development",
+      "pole": "A",
+      "text": "Videoanalyse / Feedback-Tools helfen mir wirklich weiter."
+    },
+    {
+      "id": 13,
+      "dim": "development",
+      "pole": "A",
+      "text": "Ich lerne neben Sport auch Dinge fürs Leben (Umgang mit Druck, mit Social Media, mit sich selbst)."
+    }
+  ],
+  "battery_d": [
+    {
+      "id": 1,
+      "dim": "anchor_satisfaction",
+      "pole": "A",
+      "text": "Wie zufrieden bist du aktuell insgesamt mit deiner Situation in der Akademie?"
+    },
+    {
+      "id": 2,
+      "dim": "anchor_psych_safety",
+      "pole": "A",
+      "text": "Ich traue mich im Team ehrlich zu sagen was ich denke — ohne Angst vor blöden Reaktionen."
+    },
+    {
+      "id": 3,
+      "dim": "anchor_commitment",
+      "pole": "A",
+      "text": "Ich sehe mich auch in der nächsten Saison in dieser Akademie."
+    },
+    {
+      "id": 4,
+      "dim": "anchor_alignment",
+      "pole": "A",
+      "text": "Ich weiß genau welche Rolle ich habe und was der Trainer von mir erwartet."
+    },
+    {
+      "id": 5,
+      "dim": "anchor_motivation",
+      "pole": "A",
+      "text": "Ich bin aktuell voll motiviert für die Akademie Leistung zu bringen."
+    },
+    {
+      "id": 6,
+      "dim": "wellbeing",
+      "pole": "A",
+      "text": "Ich schlafe aktuell ausreichend und gut."
+    },
+    {
+      "id": 7,
+      "dim": "wellbeing",
+      "pole": "A",
+      "text": "Ich fühle mich körperlich fit."
+    },
+    {
+      "id": 8,
+      "dim": "wellbeing",
+      "pole": "A",
+      "text": "Ich komme mit dem Druck aus Schule und Sport gut klar."
+    },
+    {
+      "id": 9,
+      "dim": "wellbeing",
+      "pole": "A",
+      "text": "Ich habe genug Freizeit für Dinge die mir Spaß machen."
+    },
+    {
+      "id": 10,
+      "dim": "wellbeing",
+      "pole": "A",
+      "text": "Meine Familie unterstützt meinen Weg."
+    },
+    {
+      "id": 11,
+      "dim": "wellbeing",
+      "pole": "A",
+      "text": "Social Media belastet mich aktuell nicht."
+    },
+    {
+      "id": 12,
+      "dim": "wellbeing",
+      "pole": "A",
+      "text": "Ich fühle mich emotional stabil in dieser Phase."
+    },
+    {
+      "id": 13,
+      "dim": "wellbeing",
+      "pole": "A",
+      "text": "Ich weiß an wen ich mich wenden kann wenn es mir mal nicht gut geht."
+    }
+  ],
+  "battery_e": [
+    {
+      "id": 1,
+      "dim": "anchor_satisfaction",
+      "pole": "A",
+      "text": "Wie zufrieden bist du aktuell insgesamt mit deiner Situation in der Akademie?"
+    },
+    {
+      "id": 2,
+      "dim": "anchor_psych_safety",
+      "pole": "A",
+      "text": "Ich traue mich im Team ehrlich zu sagen was ich denke — ohne Angst vor blöden Reaktionen."
+    },
+    {
+      "id": 3,
+      "dim": "anchor_commitment",
+      "pole": "A",
+      "text": "Ich sehe mich auch in der nächsten Saison in dieser Akademie."
+    },
+    {
+      "id": 4,
+      "dim": "anchor_alignment",
+      "pole": "A",
+      "text": "Ich weiß genau welche Rolle ich habe und was der Trainer von mir erwartet."
+    },
+    {
+      "id": 5,
+      "dim": "anchor_motivation",
+      "pole": "A",
+      "text": "Ich bin aktuell voll motiviert für die Akademie Leistung zu bringen."
+    },
+    {
+      "id": 6,
+      "dim": "matchday",
+      "pole": "A",
+      "text": "Vor dem Spiel fühle ich mich mental bereit."
+    },
+    {
+      "id": 7,
+      "dim": "matchday",
+      "pole": "A",
+      "text": "Ich weiß klar was meine Aufgabe im Spiel ist."
+    },
+    {
+      "id": 8,
+      "dim": "matchday",
+      "pole": "A",
+      "text": "Die Ansprache vor dem Spiel hilft mir."
+    },
+    {
+      "id": 9,
+      "dim": "matchday",
+      "pole": "A",
+      "text": "Unser Warm-up bereitet mich richtig vor."
+    },
+    {
+      "id": 10,
+      "dim": "matchday",
+      "pole": "A",
+      "text": "Nach dem Spiel gibt es strukturiertes Feedback."
+    },
+    {
+      "id": 11,
+      "dim": "matchday",
+      "pole": "A",
+      "text": "Rückstände werfen unsere Mannschaft nicht sofort aus der Bahn."
+    }
+  ]
+}

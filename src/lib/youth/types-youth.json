@@ -1,0 +1,962 @@
+{
+  "ESAF": {
+    "name": "Der Planer",
+    "family": "str",
+    "tagline": "Denkt voraus, übt alleine, führt durch Vorbild",
+    "emoji": "🧩",
+    "color": "#A78BFA",
+    "desc": "Du bist strukturiert, zuverlässig und willst Sachen richtig machen. Du ziehst dein Ding durch — auch ohne dass ständig jemand daneben steht.",
+    "strengths": [
+      "Du arbeitest systematisch an dir",
+      "Sehr zuverlässig — auf dich kann man zählen",
+      "Denkst Dinge vorher durch",
+      "Führst durch Haltung, nicht durch Lautstärke"
+    ],
+    "risks": [
+      "Kannst auf andere distanziert wirken",
+      "Zeigst Gefühle vielleicht zu selten",
+      "Wirst ungeduldig mit weniger strukturierten Mitspielern",
+      "Nimmst dir selbst wenig Pausen"
+    ],
+    "playerDo": [
+      "Setze dir jede Woche 2-3 konkrete Lernziele",
+      "Sprich dein Team aktiv an — nicht nur wenn du musst",
+      "Übernimm bewusst eine Führungsrolle wenn es passt",
+      "Gönn dir auch Regenerationszeit"
+    ],
+    "playerDont": [
+      "Igel dich nicht komplett ein",
+      "Bleib nicht nur im Kopf — Sport ist auch Gefühl",
+      "Nicht alles selbst schultern wollen",
+      "Komfortzone nicht nie verlassen"
+    ],
+    "coachDo": [
+      "Gib sachliches, konkretes Feedback",
+      "Lass ihm/ihr Raum für eigenes Training",
+      "Nutze ihn/sie als Sparringspartner*in im Gespräch",
+      "Entwickle gemeinsam langfristige Pläne"
+    ],
+    "coachDont": [
+      "Keine vagen Anweisungen",
+      "Nicht zwingen, ständig in Gruppen zu sein",
+      "Nicht öffentlich bloßstellen",
+      "Routinen nicht ohne Erklärung ändern"
+    ],
+    "why": [
+      "Sachliches Feedback gibt konkrete Verbesserungspunkte",
+      "Eigenständigkeit gibt Selbstvertrauen",
+      "Langfristige Ziele passen zu seinem Lernmodus"
+    ],
+    "whyNot": [
+      "Zu viel emotionaler Druck blockiert das Denken",
+      "Ständige Kontrolle wirkt entmündigend",
+      "Spontane Änderungen ohne Erklärung frustrieren"
+    ],
+    "selfDev": [
+      "Täglich 3 Minuten Reflexion: Was war gut? Was nehme ich mit?",
+      "Mindestens 1x pro Woche bewusst jemandem im Team helfen",
+      "Feedback auch annehmen wenn es emotional kommt",
+      "Öfter sagen wie es dir wirklich geht"
+    ]
+  },
+  "ESAD": {
+    "name": "Der Analytiker",
+    "family": "str",
+    "tagline": "Ruhig, scharfsinnig, still stark",
+    "emoji": "🔍",
+    "color": "#A78BFA",
+    "desc": "Du beobachtest viel, denkst schnell und liest Situationen gut. Du brauchst nicht laut zu sein um großen Einfluss zu haben.",
+    "strengths": [
+      "Liest Spiel und Gruppe sehr gut",
+      "Ruhig unter Druck",
+      "Findet kluge Lösungen",
+      "Bleibt sich selbst treu"
+    ],
+    "risks": [
+      "Wirkst manchmal zu passiv",
+      "Nimmst nicht immer den Ball wenn du solltest",
+      "Stille kann als Desinteresse gelesen werden",
+      "Überdenkst Entscheidungen"
+    ],
+    "playerDo": [
+      "Teile deine Beobachtungen aktiv mit Team und Trainer",
+      "Trau dich in unklaren Momenten Verantwortung zu ziehen",
+      "Spiel auch mal ohne viel Nachdenken",
+      "Mach deine Analyse hörbar statt nur im Kopf"
+    ],
+    "playerDont": [
+      "Nicht in totaler Zurückhaltung verschwinden",
+      "Nicht alles bis zum Ende durchrechnen wollen",
+      "Nicht unterschätzen welchen Einfluss du hast",
+      "Nicht alle Gefühle schlucken"
+    ],
+    "coachDo": [
+      "Frag aktiv nach seiner/ihrer Wahrnehmung",
+      "Gib Raum für ruhige, tiefe Gespräche",
+      "Hol ihn/sie in taktische Entscheidungen rein",
+      "Wertschätze das Leise-Starke"
+    ],
+    "coachDont": [
+      "Nicht vor der Gruppe zur Lautstärke drängen",
+      "Nicht dauernd unterbrechen beim Sprechen",
+      "Nicht 'mehr Emotion zeigen!' als Coaching",
+      "Nicht in laute Führungsrollen zwingen"
+    ],
+    "why": [
+      "Eigenständiges Denken wird gesehen und genutzt",
+      "Ruhige Gespräche geben Sicherheit",
+      "Intellektuelle Reize halten ihn/sie im Flow"
+    ],
+    "whyNot": [
+      "Brüllkultur macht ihn/sie dicht",
+      "Chaotische Kommunikation ohne Struktur",
+      "Ignoriert werden als 'der/die Stille'"
+    ],
+    "selfDev": [
+      "1x pro Woche eine eigene Idee laut einbringen",
+      "Emotionale Reaktion im Moment zulassen",
+      "Pro Match ein Risiko spielen statt sichere Option",
+      "In der Schule/Kabine bewusst ins Gespräch gehen"
+    ]
+  },
+  "ESIF": {
+    "name": "Die Kämpferseele",
+    "family": "str",
+    "tagline": "Intensiv, eigenständig, will vorangehen",
+    "emoji": "🔥",
+    "color": "#A78BFA",
+    "desc": "Du arbeitest hart an dir und spürst alles intensiv. Du willst dich selbst herausfordern und auch andere mitziehen.",
+    "strengths": [
+      "Hohe Selbstmotivation",
+      "Starke Emotionalität bringt Energie rein",
+      "Bereitschaft, Führung zu übernehmen",
+      "Arbeitet hart im Hintergrund"
+    ],
+    "risks": [
+      "Emotionale Ausbrüche bei Fehlern",
+      "Zu hoher Anspruch an sich selbst",
+      "Kann Mitspieler überfordern",
+      "Schlaf- und Stressprobleme bei zu viel Druck"
+    ],
+    "playerDo": [
+      "Lerne Tools zur Emotionsregulation (Atmung, Routinen)",
+      "Setze Ziele die herausfordern aber erreichbar sind",
+      "Rede über das was dich innerlich bewegt",
+      "Plane Regenerationstage fest ein"
+    ],
+    "playerDont": [
+      "Keine Selbstvorwürfe über Tage mitschleppen",
+      "Nicht Mitspieler anbrüllen wenn es knapp wird",
+      "Keine Erwartung perfekt sein zu müssen",
+      "Schlaf nicht opfern für noch mehr Training"
+    ],
+    "coachDo": [
+      "Emotionen ernst nehmen, nicht abwerten",
+      "Klare Kanäle für Ventil anbieten (Einzelgespräch)",
+      "Führungsrolle dosiert übertragen",
+      "Mit Sinn erklären, nicht nur mit Anweisung"
+    ],
+    "coachDont": [
+      "Nicht öffentlich kritisieren wenn er/sie gerade geladen ist",
+      "Nicht ironisch auf Emotion reagieren",
+      "Nicht dauerhaft als 'der/die Emotionale' labeln",
+      "Nicht zu viele Reize gleichzeitig geben"
+    ],
+    "why": [
+      "Sinnhaftigkeit der Aufgabe befeuert Motivation",
+      "Persönliches Gesehen-Werden stabilisiert",
+      "Verantwortung zeigen dürfen setzt Energie frei"
+    ],
+    "whyNot": [
+      "Gefühl 'austauschbar' zu sein demotiviert massiv",
+      "Zu viel Routine ohne Sinn",
+      "Wenn Emotion als Schwäche betrachtet wird"
+    ],
+    "selfDev": [
+      "Tägliche 2-Minuten-Atemübung vor Training",
+      "Einmal pro Woche ein Emotionsjournal",
+      "Bewusst Erfolge anerkennen statt nur Schwächen sehen",
+      "Einem Mitspieler pro Woche ein ehrliches Kompliment"
+    ]
+  },
+  "ESID": {
+    "name": "Die Stille Flamme",
+    "family": "str",
+    "tagline": "Tief, eigen, spürt alles doppelt",
+    "emoji": "🕯️",
+    "color": "#A78BFA",
+    "desc": "Du nimmst viel wahr, denkst viel, fühlst viel — und das meiste davon behältst du für dich. Deine Stärke liegt in deiner Tiefe.",
+    "strengths": [
+      "Hohe Empathie und Beobachtungsgabe",
+      "Arbeitet zuverlässig ohne Drama",
+      "Findet kreative Lösungen",
+      "Hat ein feines Gespür für das Team-Klima"
+    ],
+    "risks": [
+      "Zieht sich bei Stress komplett zurück",
+      "Schluckt Ärger zu lange",
+      "Wird bei Überreizung schnell müde oder krank",
+      "Sagt nicht was er/sie braucht"
+    ],
+    "playerDo": [
+      "Sprich früh an wenn dich was drückt",
+      "Plane Rückzugszeiten bewusst ein",
+      "Nutze deine Beobachtungen als Beitrag im Gespräch",
+      "Sag klar wenn etwas zu viel wird"
+    ],
+    "playerDont": [
+      "Nicht alles schlucken bis du platzt",
+      "Nicht alles allein lösen wollen",
+      "Kein 'ist schon okay' wenn es nicht okay ist",
+      "Nicht von der Gruppe komplett abtauchen"
+    ],
+    "coachDo": [
+      "Schaffe ruhige 1:1-Räume",
+      "Frag aktiv nach seinem/ihrem Befinden",
+      "Gib Vorwarnung bei Änderungen",
+      "Wertschätze das, was er/sie leise leistet"
+    ],
+    "coachDont": [
+      "Nicht vor Gruppe kritisieren",
+      "Nicht 'mehr aufdrehen!' fordern",
+      "Nicht übersehen weil er/sie nicht laut ist",
+      "Keine Überraschungen im Druckmoment"
+    ],
+    "why": [
+      "Ruhe und Vertrauen setzen Energie frei",
+      "Gesehen werden ohne laut sein zu müssen",
+      "Kleine persönliche Gespräche"
+    ],
+    "whyNot": [
+      "Laute, chaotische Umgebungen",
+      "Öffentliche Aufforderung zur Emotion",
+      "Gefühl übergangen oder übersehen zu werden"
+    ],
+    "selfDev": [
+      "Mini-Check-in mit Trainer*in alle 2 Wochen",
+      "Einen Lieblingsort fürs Durchatmen definieren",
+      "Pro Woche 1 Bedürfnis laut aussprechen",
+      "Feedback geben an jemand dem du vertraust"
+    ]
+  },
+  "ETAF": {
+    "name": "Der Brückenbauer",
+    "family": "tfo",
+    "tagline": "Verbindet, stabilisiert, zieht mit",
+    "emoji": "🌉",
+    "color": "#60A5FA",
+    "desc": "Du bist das soziale Zentrum deiner Gruppe. Du sorgst dafür dass alle mitgenommen werden — ohne dich wär's kälter.",
+    "strengths": [
+      "Integriert neue Spieler schnell",
+      "Hält die Gruppe emotional zusammen",
+      "Ruhig und ausgleichend in Konflikten",
+      "Vertrauensperson für viele"
+    ],
+    "risks": [
+      "Vernachlässigt eigene Bedürfnisse",
+      "Vermeidet harte Konflikte",
+      "Nimmt fremde Probleme zu sehr mit",
+      "Tut sich mit eigener Leistungssteigerung schwer wenn Harmonie gefährdet"
+    ],
+    "playerDo": [
+      "Merke: Auch deine Entwicklung ist wichtig",
+      "Trau dich auch mal 'Nein' zu sagen",
+      "Setze eigene Ziele unabhängig von der Gruppe",
+      "Such dir jemand zum Reden über deinen Druck"
+    ],
+    "playerDont": [
+      "Nicht immer Vermittler sein — manchmal auch Kante zeigen",
+      "Nicht alle Gefühle anderer schultern",
+      "Deine Leistung nicht fürs Gruppenfrieden drücken",
+      "Nicht Konflikte einfach wegreden"
+    ],
+    "coachDo": [
+      "Sprich seine/ihre soziale Wirkung offen an",
+      "Entwickle individuelle Leistungsziele",
+      "Entlaste ihn/sie wenn er/sie zu viel trägt",
+      "Binde als Brücke zwischen Gruppen und Neuen ein"
+    ],
+    "coachDont": [
+      "Nicht nur als 'der/die Nette' definieren",
+      "Nicht ausnutzen als Konflikt-Lösepunkt",
+      "Nicht übersehen, dass er/sie sportlich wachsen will",
+      "Nicht für Kabinenfrieden verantwortlich machen"
+    ],
+    "why": [
+      "Beziehungen geben Sicherheit",
+      "Gemeinsamer Fortschritt motiviert stark",
+      "Wahrgenommen werden als Mensch, nicht nur als Kitt"
+    ],
+    "whyNot": [
+      "Kalte, distanzierte Atmosphäre",
+      "Hohe interne Streitkultur",
+      "Ignoriert werden als Person"
+    ],
+    "selfDev": [
+      "1x pro Woche: Was brauche ICH gerade?",
+      "Übung: Einmal klar 'Nein' zu etwas sagen",
+      "Ein eigenes Leistungsziel neben dem Gruppenziel",
+      "Vertraute Person außerhalb des Teams zum Reden"
+    ]
+  },
+  "ETAD": {
+    "name": "Der Kitt",
+    "family": "tfo",
+    "tagline": "Loyal, ausgleichend, immer da",
+    "emoji": "🤝",
+    "color": "#60A5FA",
+    "desc": "Du bist extrem verlässlich und machst deine Rolle ohne Wind zu machen. Dein Team weiß — wenn du dabei bist, läuft's ruhiger.",
+    "strengths": [
+      "Extrem loyal und beständig",
+      "Erdet die Mannschaft",
+      "Nimmt Druck aus Konflikten",
+      "Gute*r Mitspieler*in für alle"
+    ],
+    "risks": [
+      "Verschwindet ein bisschen in der Gruppe",
+      "Sagt nicht wenn er/sie mehr will",
+      "Wird unterschätzt",
+      "Zu bescheiden bei eigenen Erfolgen"
+    ],
+    "playerDo": [
+      "Formuliere deine eigenen Ziele konkret",
+      "Zeig öfter was du draufhast",
+      "Melde dich wenn du Aufgaben willst",
+      "Feiere auch deine eigenen Erfolge"
+    ],
+    "playerDont": [
+      "Nicht immer in der zweiten Reihe stehen",
+      "Nicht alles schlucken",
+      "Nicht warten dass du entdeckt wirst",
+      "Nicht dich selbst kleinreden"
+    ],
+    "coachDo": [
+      "Zieh ihn/sie aktiv in Entscheidungen",
+      "Gib gezieltes Einzelfeedback",
+      "Setze sichtbare Entwicklungsziele",
+      "Bau ihn/sie als stilles Rückgrat ins System"
+    ],
+    "coachDont": [
+      "Nicht als selbstverständlich nehmen",
+      "Nicht nur einsetzen wo gerade einer fehlt",
+      "Nicht vergessen ihm/ihr Bühne zu geben",
+      "Nicht übersehen weil leise"
+    ],
+    "why": [
+      "Stabile Beziehungen geben Selbstvertrauen",
+      "Anerkennung für Verlässlichkeit",
+      "Fester Platz im System"
+    ],
+    "whyNot": [
+      "Ständiger Positionswechsel ohne Erklärung",
+      "Gefühl austauschbar zu sein",
+      "Öffentliche Kritik ohne Kontext"
+    ],
+    "selfDev": [
+      "3 Stärken aufschreiben und sichtbar haben",
+      "1x pro Woche etwas ausprobieren das rausfordert",
+      "Aktiv Ball/Situation fordern auch wenn unsicher",
+      "Erfolg nicht wegreden sondern annehmen"
+    ]
+  },
+  "ETIF": {
+    "name": "Das Herz im Team",
+    "family": "tfo",
+    "tagline": "Laut, warm, leidenschaftlich verbindend",
+    "emoji": "❤️‍🔥",
+    "color": "#60A5FA",
+    "desc": "Du bringst die Stimmung, du reißt mit, du bist der Puls der Mannschaft. Ohne dich fehlt Feuer in der Gruppe.",
+    "strengths": [
+      "Reißt das Team in schwierigen Momenten mit",
+      "Große emotionale Ausstrahlung",
+      "Geht voran wenn es drauf ankommt",
+      "Öffnet und integriert andere"
+    ],
+    "risks": [
+      "Emotionen können überschlagen",
+      "Reagiert impulsiv bei Ungerechtigkeit",
+      "Nimmt Stimmung der Gruppe stark auf sich",
+      "Kann bei Rückschlägen in Stimmungstiefs fallen"
+    ],
+    "playerDo": [
+      "Kanalisiere deine Energie bewusst",
+      "Lerne Tools um Emotion im Spiel zu steuern",
+      "Sei dir bewusst wie viel Gewicht deine Stimmung hat",
+      "Plane Pausen ein für dich selbst"
+    ],
+    "playerDont": [
+      "Nicht jede Ungerechtigkeit sofort eskalieren",
+      "Nicht auf Knopfdruck immer 'der Motor' sein",
+      "Nicht alle Gruppen-Probleme persönlich nehmen",
+      "Nicht runtermachen wenn die Stimmung kippt"
+    ],
+    "coachDo": [
+      "Gib bewusst Bühnen (Kapitänsrolle, Ansprache)",
+      "Sprich mit ihm/ihr über seine/ihre Energie",
+      "Nutz als Verbindungsglied zu stillen Spielern",
+      "Coache seine/ihre Impulskontrolle aktiv"
+    ],
+    "coachDont": [
+      "Emotion nicht als Problem framen",
+      "Nicht im Affekt hart konfrontieren",
+      "Nicht nur als 'Stimmungsmacher' reduzieren",
+      "Nicht überhören wenn was nicht stimmt"
+    ],
+    "why": [
+      "Emotionale Nähe und Authentizität",
+      "Große Sichtbarkeit im positiven Sinn",
+      "Gefühl, wirklich was zu bewegen"
+    ],
+    "whyNot": [
+      "Kalte, sachliche Dauer-Coaching-Atmosphäre",
+      "Gefühl nicht gehört zu werden",
+      "Ironische Reaktion auf seine/ihre Emotion"
+    ],
+    "selfDev": [
+      "Atemroutine vor Matches etablieren",
+      "Trigger erkennen die dich hochfahren",
+      "Emotionstagebuch führen (was hat dich gepusht/gedrückt?)",
+      "Pro Woche 1 Konflikt ruhig austragen statt heiß"
+    ]
+  },
+  "ETID": {
+    "name": "Die Empathiestarke Seele",
+    "family": "tfo",
+    "tagline": "Spürt alles, gibt viel, braucht Schutz",
+    "emoji": "💞",
+    "color": "#60A5FA",
+    "desc": "Du fühlst was andere fühlen — oft bevor sie es selbst wissen. Dein Superpower ist Empathie. Deine Aufgabe ist Selbstschutz.",
+    "strengths": [
+      "Extrem hohe Empathie",
+      "Stabilisiert das Team emotional",
+      "Ist da wenn andere traurig sind",
+      "Gute Zuhörerin / Zuhörer"
+    ],
+    "risks": [
+      "Absorbiert fremden Stress",
+      "Vernachlässigt sich selbst",
+      "Hat Schwierigkeiten 'nein' zu sagen",
+      "Kann in emotionale Erschöpfung rutschen"
+    ],
+    "playerDo": [
+      "Baue feste Grenzen ein (Zeit für dich allein)",
+      "Lerne Gefühle von anderen abzugrenzen",
+      "Sag wenn du zu viel trägst",
+      "Such dir deine eigene Vertrauensperson"
+    ],
+    "playerDont": [
+      "Nicht jedem alles geben was sie wollen",
+      "Nicht immer 'stark für andere' sein müssen",
+      "Nicht in alle Drama-Geschichten reingezogen werden",
+      "Nicht deinen eigenen Sport hintenanstellen"
+    ],
+    "coachDo": [
+      "Check regelmäßig wie es IHR/IHM geht",
+      "Gib Raum für ehrliche Gespräche",
+      "Schütze vor Überlastung durch andere",
+      "Würdige die soziale Arbeit die stattfindet"
+    ],
+    "coachDont": [
+      "Nicht als 'Psychologe/Psychologin' des Teams ausnutzen",
+      "Nicht über Gefühle hinweggehen",
+      "Nicht öffentlich Druck aufbauen",
+      "Nicht übersehen — sie/er sagt selten wenn's zu viel wird"
+    ],
+    "why": [
+      "Sichere emotionale Beziehung",
+      "Anerkennung für sein/ihr Geben",
+      "Raum zum Fühlen und Reflektieren"
+    ],
+    "whyNot": [
+      "Kühle, funktionale Dauer-Umgebung",
+      "Konfliktkultur ohne Rücksicht",
+      "Gefühl niemandem wirklich wichtig zu sein"
+    ],
+    "selfDev": [
+      "Tägliche '10 Minuten nur für mich'-Routine",
+      "Nein-sagen üben in Kleinigkeiten",
+      "Journal über eigene Gefühle (nicht nur die der anderen)",
+      "Eine Aktivität die NICHTS mit Team zu tun hat"
+    ]
+  },
+  "WSAF": {
+    "name": "Der Eiskalte",
+    "family": "per",
+    "tagline": "Wenn es drauf ankommt, liefert er",
+    "emoji": "🧊",
+    "color": "#F59E0B",
+    "desc": "Du willst gewinnen, arbeitest alleine hart dafür und hältst Druck aus wie niemand sonst. Die entscheidende Szene liebst du.",
+    "strengths": [
+      "Nervenstark in Drucksituationen",
+      "Selbstständig und fokussiert",
+      "Klare Zielorientierung",
+      "Liefert ab wenn es zählt"
+    ],
+    "risks": [
+      "Wirkt auf Teamkollegen unnahbar",
+      "Geringe Toleranz für 'Weichheit'",
+      "Verbindet Selbstwert zu sehr mit Ergebnissen",
+      "Kann bei Misserfolg hart mit sich sein"
+    ],
+    "playerDo": [
+      "Teile Erfolge und Erkenntnisse aktiv mit dem Team",
+      "Such gezielt Feedback zu zwischenmenschlichen Dingen",
+      "Lerne Selbstwert von Ergebnis zu trennen",
+      "Bau Beziehungen auch außerhalb Sport"
+    ],
+    "playerDont": [
+      "Andere nicht abwerten die langsamer sind",
+      "Nicht über Niederlagen wochenlang grübeln",
+      "Nicht alles alleine machen wollen",
+      "Nicht kalt wirken wenn du eigentlich nur konzentriert bist"
+    ],
+    "coachDo": [
+      "Klare Aufgaben mit klarem Erfolgsmaßstab",
+      "Hochwertiges, sachliches Feedback",
+      "Vertrauen in entscheidenden Momenten",
+      "Hilf ihm/ihr Identität über Sport hinaus zu finden"
+    ],
+    "coachDont": [
+      "Nicht mit emotionalen Ansprachen 'aufheizen'",
+      "Nicht Team-Building erzwingen wenn er/sie fokussieren will",
+      "Nicht unterfordern",
+      "Nicht übersehen wenn er/sie unter Oberfläche leidet"
+    ],
+    "why": [
+      "Herausforderung und Leistungsmessung",
+      "Eigenständiges Arbeiten mit klarem Ziel",
+      "Anerkennung für harte Arbeit"
+    ],
+    "whyNot": [
+      "Sinnlose Routineübungen",
+      "Gefühl nur 'eine*r von vielen' zu sein",
+      "Mangelnde Klarheit beim Ziel"
+    ],
+    "selfDev": [
+      "Nach Matches bewusst abschalten können",
+      "Identität jenseits des Ergebnisses entwickeln",
+      "Einem Mitspieler aktiv helfen sich zu verbessern",
+      "Einmal pro Woche über Gefühle sprechen"
+    ]
+  },
+  "WSAD": {
+    "name": "Die Ruhige Waffe",
+    "family": "per",
+    "tagline": "Sieht aus wie ruhig, ist tödlich effizient",
+    "emoji": "🎯",
+    "color": "#F59E0B",
+    "desc": "Du machst kein Theater, aber in der entscheidenden Sekunde bist du da. Du passt dich an was gebraucht wird und lieferst.",
+    "strengths": [
+      "Taktisch flexibel und diszipliniert",
+      "Leistet konstant ohne große Sprünge",
+      "Extreme Nervenstärke",
+      "Denkt mit ohne zu fordern"
+    ],
+    "risks": [
+      "Wird übersehen weil nicht auffällig",
+      "Schafft keine klare Marke für sich",
+      "Unterschätzt sein/ihr eigenes Potenzial",
+      "Geht zu schnell in 'Rolle erfüllen' Modus"
+    ],
+    "playerDo": [
+      "Sprich aktiv deinen eigenen Anspruch an",
+      "Formuliere ein klares Karriereziel",
+      "Fordere Entwicklungsimpulse ein",
+      "Trau dich auch mal aufzufallen"
+    ],
+    "playerDont": [
+      "Nicht unsichtbar werden",
+      "Nicht deine Ziele den Rollen unterordnen",
+      "Nicht immer der/die sein der/die 'stilles Wasser' ist",
+      "Nicht wenig erwarten von dir selbst"
+    ],
+    "coachDo": [
+      "Gib präzises Einzelfeedback",
+      "Zeig Wachstumspfade auf",
+      "Bau ihn/sie als Schlüsselfigur im System ein",
+      "Wertschätze die stille Konstanz"
+    ],
+    "coachDont": [
+      "Nicht als 'der/die der/die einfach läuft' abstempeln",
+      "Nicht übersehen bei Auszeichnungen/Kapitänswahl",
+      "Nicht nur als Lückenfüller einsetzen",
+      "Nicht öffentlich unterschätzen"
+    ],
+    "why": [
+      "Stabile, klare Anforderungen",
+      "Anerkennung durch Trainer im 1:1",
+      "Chance auf nächste Stufe"
+    ],
+    "whyNot": [
+      "Dauerhafte Austauschbarkeit im Kader",
+      "Öffentlich kleingehalten werden",
+      "Unklare Karrierepfade"
+    ],
+    "selfDev": [
+      "Karriereziel aufschreiben und sichtbar machen",
+      "1x pro Monat Feedback-Gespräch einfordern",
+      "Eine Sache pro Training aktiv einfordern",
+      "Selbsteinschätzung: Wo bin ich besser als ich glaube?"
+    ]
+  },
+  "WSIF": {
+    "name": "Der Intensive Solist",
+    "family": "per",
+    "tagline": "Feurig, eigen, will nach vorne",
+    "emoji": "⚡",
+    "color": "#F59E0B",
+    "desc": "Du willst gewinnen, du arbeitest härter als die anderen und du spürst jeden Sieg und jede Niederlage doppelt.",
+    "strengths": [
+      "Enorme Leistungsbereitschaft",
+      "Liefert unter Druck",
+      "Sichtbares Feuer im Spiel",
+      "Geht voran wenn's drauf ankommt"
+    ],
+    "risks": [
+      "Emotionale Explosionen bei Fehlern/Schiris",
+      "Streit mit Mitspielern bei Leistungsdifferenz",
+      "Schläft schlecht vor wichtigen Terminen",
+      "Gesundheit und Schlaf unter Druck leiden"
+    ],
+    "playerDo": [
+      "Atmungsroutinen fest etablieren",
+      "Fehler aktiv loslassen (Reset-Ritual)",
+      "Trainerin/Trainer früh informieren wenn Druck zu hoch",
+      "Regeneration und Schlaf priorisieren"
+    ],
+    "playerDont": [
+      "Nicht Mitspieler öffentlich anmachen",
+      "Nicht Niederlagen tagelang im Körper tragen",
+      "Nicht Schiedsrichter anfahren",
+      "Nicht alles allein auf dem eigenen Rücken tragen"
+    ],
+    "coachDo": [
+      "Emotionen vorm Spiel besprechen, nicht danach",
+      "Klare Spielvorbereitung mit Ritualen",
+      "Hilf ihm/ihr die Energie zu lenken",
+      "Nimm Stimmung ernst ohne sie zu bewerten"
+    ],
+    "coachDont": [
+      "Nicht öffentlich vor Mitspielern bloßstellen",
+      "Nicht Ironie im Affekt",
+      "Nicht nach Niederlagen sofort Debriefing",
+      "Nicht zu hohe taktische Komplexität unter Druck"
+    ],
+    "why": [
+      "Große Bühnen und Herausforderungen",
+      "Spürbare persönliche Wertschätzung",
+      "Konkrete Ziele mit Feedback-Loop"
+    ],
+    "whyNot": [
+      "Gefühl übersehen zu werden",
+      "Bloßstellung vor anderen",
+      "Chaotische Saisonplanung"
+    ],
+    "selfDev": [
+      "Reset-Ritual nach Fehlern (3 Atemzüge + Blick zum Mitspieler)",
+      "Tägliche 5-Min-Meditation oder Atemübung",
+      "Emotionstagebuch nach Matches",
+      "Ein Mitspieler pro Woche bewusst loben"
+    ]
+  },
+  "WSID": {
+    "name": "Der Stille Wettkämpfer",
+    "family": "per",
+    "tagline": "Sagt nichts, spielt alles",
+    "emoji": "🥷",
+    "color": "#F59E0B",
+    "desc": "Du bist innen drin glühend, außen unauffällig. Du willst unbedingt gewinnen — aber du machst keine Show darum.",
+    "strengths": [
+      "Enormer innerer Antrieb",
+      "Taktisch flexibel und stabil",
+      "Intensiv ohne laut zu sein",
+      "Arbeitet im Hintergrund extrem hart"
+    ],
+    "risks": [
+      "Leidet stumm bei Rückschlägen",
+      "Zeigt zu wenig was er/sie kann",
+      "Überträgt emotionalen Druck körperlich",
+      "Erkennbar erst wenn schon überlastet"
+    ],
+    "playerDo": [
+      "Sprich mit einer Vertrauensperson regelmäßig",
+      "Lass dein Potenzial auch sichtbar werden",
+      "Achte auf Körpersignale (Schlaf, Verletzungen)",
+      "Melde Belastung früh statt spät"
+    ],
+    "playerDont": [
+      "Nicht Druck schlucken bis du explodierst",
+      "Nicht permanent runterspielen",
+      "Nicht durch Verletzung reden wollen",
+      "Nicht still leiden"
+    ],
+    "coachDo": [
+      "Aktiv nachfragen, nicht nur warten",
+      "Einzelgespräche in ruhigem Rahmen",
+      "Gib Raum für Leistung zu glänzen",
+      "Beobachte Körper und Stimmung sensibel"
+    ],
+    "coachDont": [
+      "Nicht 'mehr zeigen!' als Coaching",
+      "Nicht in Gruppen konfrontieren",
+      "Nicht übersehen weil still",
+      "Nicht Durchbeißen als Standardlösung"
+    ],
+    "why": [
+      "Stabile, vertrauensvolle Betreuer*in-Beziehung",
+      "Leistungschancen auf persönlicher Bühne",
+      "Ruhige Match-Vorbereitung"
+    ],
+    "whyNot": [
+      "Kollektive laute Ansprachen",
+      "Gefühl nicht gesehen zu werden",
+      "Unklare Rolle im System"
+    ],
+    "selfDev": [
+      "Wöchentlicher Check-in mit Coach oder Mentor",
+      "Journal über Belastung (1-10 pro Tag)",
+      "1x pro Woche aktiv Feedback einfordern",
+      "Sportpsychologische Unterstützung nicht als Schwäche sehen"
+    ]
+  },
+  "WTAF": {
+    "name": "Der Kapitän",
+    "family": "lea",
+    "tagline": "Führt, gewinnt, zieht alle mit",
+    "emoji": "👑",
+    "color": "#F87171",
+    "desc": "Du bist der geborene Leader. Du willst gewinnen und du willst dass das Team mit dir gewinnt. Du sprichst Dinge aus die andere denken.",
+    "strengths": [
+      "Natürliche Führungsfigur",
+      "Hoher Siegeswille + Teamgefühl",
+      "Geht in Krisen voran",
+      "Verbindet Leistung mit Gruppe"
+    ],
+    "risks": [
+      "Überbelastung durch zu viel Verantwortung",
+      "Frustration bei Mitspielern ohne gleichen Willen",
+      "Kann dominant wirken",
+      "Persönliche Probleme werden oft hintangestellt"
+    ],
+    "playerDo": [
+      "Delegiere bewusst Aufgaben im Team",
+      "Achte auf eigene Regeneration",
+      "Hol dir Vertrauenspersonen für dich selbst",
+      "Führe auch über Zuhören, nicht nur Reden"
+    ],
+    "playerDont": [
+      "Nicht alles auf dich nehmen",
+      "Nicht Mitspieler vor Gruppe runtermachen",
+      "Nicht Schwächen verstecken",
+      "Nicht ausbrennen durch zu viel Fürsorge für andere"
+    ],
+    "coachDo": [
+      "Gib echte Kapitänsaufgaben (nicht nur Titel)",
+      "Bring Entlastung bei nicht-sportlichen Themen",
+      "Sprich offen über Verantwortungsgrenzen",
+      "Lass ihn/sie auch mal nur Spieler*in sein"
+    ],
+    "coachDont": [
+      "Nicht Chef-Rolle gegen Gruppe ausspielen",
+      "Nicht ständig Leader-Erwartung draufpacken",
+      "Nicht Konflikte durch ihn/sie lösen lassen",
+      "Nicht Teamfragen über seinen/ihren Kopf entscheiden"
+    ],
+    "why": [
+      "Verantwortung + Gruppe + Wettkampf = Flow",
+      "Gefühl etwas zu bewegen",
+      "Sichtbares Ziel, gemeinsames Erreichen"
+    ],
+    "whyNot": [
+      "Rolle ohne wirkliche Befugnisse",
+      "Gruppe die seinen/ihren Einsatz nicht spiegelt",
+      "Unklare Hierarchien"
+    ],
+    "selfDev": [
+      "Wöchentlich: Was nehm ich NICHT auf meine Schultern?",
+      "Eine Person im Team gezielt als Co-Leader aufbauen",
+      "Eigenes Mentoring-Gespräch suchen (nicht nur geben)",
+      "Regelmäßige Pausen vom Leader-Modus"
+    ]
+  },
+  "WTAD": {
+    "name": "Der Motivator",
+    "family": "lea",
+    "tagline": "Warm, mitreißend, will mit der Gruppe gewinnen",
+    "emoji": "🚀",
+    "color": "#F87171",
+    "desc": "Du bringst andere zum Laufen. Du siehst wer gerade durchhängt und packst ihn/sie an. Mit dir im Team wird's nie langweilig.",
+    "strengths": [
+      "Motiviert schwankende Mitspieler",
+      "Liest Stimmung im Team sehr gut",
+      "Führt ohne Dominanz",
+      "Macht Erfolge zu Gruppen-Erfolgen"
+    ],
+    "risks": [
+      "Brennt aus durch 'überall helfen'",
+      "Eigene Leistung leidet unter Team-Fokus",
+      "Schwer abzugrenzen wenn Druck kommt",
+      "Wird bei stillem Typ oft überfordert"
+    ],
+    "playerDo": [
+      "Fokussiere gezielt auch eigene Leistung",
+      "Setze Grenzen bei Teamproblemen",
+      "Feier deine eigenen Erfolge sichtbar",
+      "Hol dir selbst Mentoring"
+    ],
+    "playerDont": [
+      "Nicht immer Gruppen-Therapeut*in sein",
+      "Nicht alle Stimmungstiefs retten wollen",
+      "Nicht eigene Ziele den Gruppen unterstellen",
+      "Nicht schweigen wenn du selbst leidest"
+    ],
+    "coachDo": [
+      "Sprich seine/ihre soziale Leistung direkt an",
+      "Mach eigene Entwicklungsziele sichtbar",
+      "Entlaste wenn Gruppe ihn/sie zu stark zieht",
+      "Gib Raum für individuelle Bühne"
+    ],
+    "coachDont": [
+      "Nicht nur als 'Stimmungsmacher' framen",
+      "Nicht Team-Fürsorge als selbstverständlich nehmen",
+      "Nicht übersehen wenn er/sie überfordert ist",
+      "Nicht dazu drängen immer 'on' zu sein"
+    ],
+    "why": [
+      "Erfolg mit der Gruppe",
+      "Sichtbare positive Wirkung",
+      "Wechselseitige Wertschätzung"
+    ],
+    "whyNot": [
+      "Isolation und Einzelkämpfer-Kultur",
+      "Gruppe die keine Energie zurückgibt",
+      "Gefühl ausgenutzt zu werden"
+    ],
+    "selfDev": [
+      "1x pro Woche: Mein Erfolg unabhängig von der Gruppe",
+      "Pausen-Tag ohne Team-Kontakt einbauen",
+      "Eigene Vertrauensperson aktiv pflegen",
+      "Eigene Leistungsziele im Matchvorfeld konkretisieren"
+    ]
+  },
+  "WTIF": {
+    "name": "Die Alpha-Flamme",
+    "family": "lea",
+    "tagline": "Laut, emotional, führt durch Feuer",
+    "emoji": "🔥",
+    "color": "#F87171",
+    "desc": "Du willst gewinnen, du willst das Team mitreißen und du machst es mit Emotion und Ansage. Ohne dich fehlt der Motor.",
+    "strengths": [
+      "Extreme Durchsetzungskraft",
+      "Reißt Gruppe im Match mit",
+      "Kein Drumherum-Reden bei Problemen",
+      "Geht in Krisen voran"
+    ],
+    "risks": [
+      "Konflikte eskalieren schnell",
+      "Kann Mitspieler verschrecken",
+      "Schlechtes Vorbild im Frust",
+      "Emotionaler Kollaps möglich bei Niederlagen"
+    ],
+    "playerDo": [
+      "Emotionsregulation systematisch lernen",
+      "Unterschied Anführen vs. Diktieren erkennen",
+      "Dir einen Co-Leader zum Sparring suchen",
+      "Auf eigene mentale Gesundheit achten"
+    ],
+    "playerDont": [
+      "Nicht explodieren im Team-Kreis",
+      "Nicht Mitspieler öffentlich abwerten",
+      "Nicht Konfrontation als einziges Werkzeug",
+      "Nicht übersehen wenn Gruppe dicht macht"
+    ],
+    "coachDo": [
+      "Kanäle für Emotion außerhalb Spiel anbieten",
+      "Klare Leader-Rolle mit klaren Grenzen",
+      "1:1 nach emotionalen Spielen",
+      "Raum zum Reflektieren schaffen"
+    ],
+    "coachDont": [
+      "Nicht in der Hitze konfrontieren",
+      "Nicht Ironie bei Emotionen",
+      "Nicht Alpha-Rolle als Dauer-Erwartung",
+      "Nicht übersehen wenn es zu viel wird"
+    ],
+    "why": [
+      "Große Spiele mit hohem Einsatz",
+      "Klare Führungsrolle",
+      "Wertschätzung der Intensität ohne sie zu dämpfen"
+    ],
+    "whyNot": [
+      "Pausen-Phasen ohne klares Ziel",
+      "Gruppe die nicht mit zieht",
+      "Schwache Führung von oben"
+    ],
+    "selfDev": [
+      "Reset-Routine bei aufkommender Wut (z.B. 10 Sek Atmung)",
+      "Wöchentliche Reflexion: Wie oft hab ich heiß vs. klar geführt?",
+      "Mentor außerhalb des Teams holen",
+      "Anerkennung für Teamwork durch dich — nicht nur Forderung"
+    ]
+  },
+  "WTID": {
+    "name": "Der Stille Anführer",
+    "family": "lea",
+    "tagline": "Leise führen — durch Haltung, nicht Lautstärke",
+    "emoji": "🗻",
+    "color": "#F87171",
+    "desc": "Du willst gewinnen, du bist für die Gruppe da — aber du brauchst kein großes Geschrei. Man folgt dir weil du da bist, nicht weil du laut bist.",
+    "strengths": [
+      "Respektierte, ruhige Führung",
+      "Stabil unter Druck",
+      "Loyalität zum Team",
+      "Wird als verlässlich wahrgenommen"
+    ],
+    "risks": [
+      "Wird unterschätzt von außen",
+      "Schluckt Probleme",
+      "Setzt Grenzen zu spät",
+      "Eigene Entwicklung steht hinter Team"
+    ],
+    "playerDo": [
+      "Formuliere Erwartungen klar wenn nötig",
+      "Sag laut wenn du eine Rolle willst",
+      "Setze eigene Entwicklungsziele sichtbar",
+      "Teile mehr von dem was dich beschäftigt"
+    ],
+    "playerDont": [
+      "Nicht immer als Letzte*r sprechen",
+      "Nicht Probleme still aussitzen",
+      "Nicht dich selbst klein reden",
+      "Nicht Führungsrolle aus Bescheidenheit ablehnen"
+    ],
+    "coachDo": [
+      "Sprich seine/ihre Führung explizit an und mach sichtbar",
+      "Biete Bühnen (Ansprachen, Entscheidungsmomente)",
+      "Check regelmäßig wie es ihm/ihr geht",
+      "Zeig auf wo seine/ihre stille Wirkung greift"
+    ],
+    "coachDont": [
+      "Nicht übersehen weil still",
+      "Nicht auf laut drängen",
+      "Nicht nur einsetzen wenn Krise da ist",
+      "Nicht seine/ihre Führung ungenutzt lassen"
+    ],
+    "why": [
+      "Vertrauensvolle Beziehungen",
+      "Gemeinsame Siege",
+      "Stille Anerkennung + Bühne zur richtigen Zeit"
+    ],
+    "whyNot": [
+      "Permanenter Lärm und Chaos",
+      "Unterschätzung als 'der/die Stille'",
+      "Unklare Rollen"
+    ],
+    "selfDev": [
+      "Wöchentlich einmal laut eine Richtung vorgeben",
+      "Eigenen Ehrgeiz sichtbar formulieren",
+      "Aktiv Kapitänsrolle anstreben wenn es passt",
+      "Persönliches Mentoring suchen (nicht nur geben)"
+    ]
+  }
+}

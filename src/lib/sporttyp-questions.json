@@ -1,0 +1,1166 @@
+{
+  "player_selftest": [
+    {
+      "id": 1,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich messe meinen Erfolg daran, ob ich mich weiterentwickelt habe."
+    },
+    {
+      "id": 2,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Gewinnen ist das Wichtigste — alles andere ist zweitrangig."
+    },
+    {
+      "id": 3,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich trainiere am liebsten an meinen Schwächen."
+    },
+    {
+      "id": 4,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Ein gutes Spiel ohne Sieg fühlt sich wie eine Niederlage an."
+    },
+    {
+      "id": 5,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich ziehe langfristige Verbesserung kurzfristigem Erfolg vor."
+    },
+    {
+      "id": 6,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Der direkte Vergleich mit meinem Gegenspieler motiviert mich am stärksten."
+    },
+    {
+      "id": 7,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich interessiere mich intensiv für taktische und technische Details."
+    },
+    {
+      "id": 8,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Ich will in jedem Spiel der Beste auf dem Platz sein."
+    },
+    {
+      "id": 9,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Fehler sehe ich als Lernchance."
+    },
+    {
+      "id": 10,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Tabelle und Statistiken zeigen mir, wo ich stehe."
+    },
+    {
+      "id": 11,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich bewundere Spieler die sich ständig verbessern."
+    },
+    {
+      "id": 12,
+      "dim": "drive",
+      "pole": "B",
+      "text": "In Druckmomenten will ich den entscheidenden Ball spielen."
+    },
+    {
+      "id": 13,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich reflektiere nach dem Training, was ich gelernt habe."
+    },
+    {
+      "id": 14,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Ohne den Reiz des Wettbewerbs fehlt mir die Motivation."
+    },
+    {
+      "id": 15,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich suche aktiv nach neuen Methoden um mich zu verbessern."
+    },
+    {
+      "id": 16,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Ich liebe es, Gegner zu übertrumpfen."
+    },
+    {
+      "id": 17,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Der Prozess des Besserwerdens ist befriedigender als das Ergebnis."
+    },
+    {
+      "id": 18,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich brauche Freiraum um mich selbst zu organisieren."
+    },
+    {
+      "id": 19,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Ich spiele besser wenn die Stimmung im Team gut ist."
+    },
+    {
+      "id": 20,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich habe eigene Routinen die mir mehr helfen als Teamvorgaben."
+    },
+    {
+      "id": 21,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Ohne Zugehörigkeit fehlt mir der Antrieb."
+    },
+    {
+      "id": 22,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich setze mir lieber selbst Ziele."
+    },
+    {
+      "id": 23,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Teamerfolge bedeuten mir mehr als individuelle Leistungen."
+    },
+    {
+      "id": 24,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich kann meine beste Leistung auch allein abrufen."
+    },
+    {
+      "id": 25,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Ich brauche enge Beziehungen zu Mitspielern."
+    },
+    {
+      "id": 26,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Einzeltraining motiviert mich oft mehr als Gruppentraining."
+    },
+    {
+      "id": 27,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Wenn das Team zusammenhält, wachse ich über mich hinaus."
+    },
+    {
+      "id": 28,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich analysiere meine Leistung am liebsten selbst."
+    },
+    {
+      "id": 29,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Ich funktioniere am besten als Teil einer Einheit."
+    },
+    {
+      "id": 30,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich mache Dinge am liebsten auf meine eigene Art."
+    },
+    {
+      "id": 31,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Gemeinsame Rituale geben mir Sicherheit und Kraft."
+    },
+    {
+      "id": 32,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich brauche nicht die Bestätigung anderer."
+    },
+    {
+      "id": 33,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Ein starkes Teamgefühl macht mich messbar besser."
+    },
+    {
+      "id": 34,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich löse Probleme lieber selbst."
+    },
+    {
+      "id": 35,
+      "dim": "mental",
+      "pole": "A",
+      "text": "In hektischen Situationen bleibe ich innerlich ruhig."
+    },
+    {
+      "id": 36,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Meine Emotionen sind mein stärkster Antrieb."
+    },
+    {
+      "id": 37,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Rückschläge bringen mich nicht aus der Ruhe."
+    },
+    {
+      "id": 38,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Ich brauche emotionale Intensität für mein bestes Niveau."
+    },
+    {
+      "id": 39,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Ich kontrolliere meine Gedanken unter Druck bewusst."
+    },
+    {
+      "id": 40,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Wenn ich aufgeregt bin, spiele ich oft am besten."
+    },
+    {
+      "id": 41,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Meine Leistung schwankt kaum — ich bin konstant."
+    },
+    {
+      "id": 42,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Ich bin leidenschaftlich und zeige das auf dem Platz."
+    },
+    {
+      "id": 43,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Ich reagiere auf Provokationen gelassen."
+    },
+    {
+      "id": 44,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Je lauter die Atmosphäre, desto besser spiele ich."
+    },
+    {
+      "id": 45,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Mein Umfeld beschreibt mich als besonnen."
+    },
+    {
+      "id": 46,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Emotionale Höhepunkte geben mir unfassbar viel Kraft."
+    },
+    {
+      "id": 47,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Ich kann negative Emotionen im Spiel abschalten."
+    },
+    {
+      "id": 48,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Meine Leidenschaft ist ansteckend."
+    },
+    {
+      "id": 49,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Ich treffe unter Stress rationale Entscheidungen."
+    },
+    {
+      "id": 50,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Ohne emotionale Beteiligung spiele ich unter Niveau."
+    },
+    {
+      "id": 51,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Ich habe feste mentale Strategien für schwierige Situationen."
+    },
+    {
+      "id": 52,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ich übernehme automatisch Verantwortung."
+    },
+    {
+      "id": 53,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich nehme Anweisungen offen an und setze sie direkt um."
+    },
+    {
+      "id": 54,
+      "dim": "role",
+      "pole": "A",
+      "text": "In schwierigen Situationen wollen andere wissen was ich denke."
+    },
+    {
+      "id": 55,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich passe mich flexibel an wechselnde Vorgaben an."
+    },
+    {
+      "id": 56,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ich gebe Mitspielern aktiv Orientierung."
+    },
+    {
+      "id": 57,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich bin am stärksten mit einer klaren Aufgabe im System."
+    },
+    {
+      "id": 58,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ich spreche Missstände direkt an."
+    },
+    {
+      "id": 59,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich frage aktiv nach Feedback."
+    },
+    {
+      "id": 60,
+      "dim": "role",
+      "pole": "A",
+      "text": "Es liegt mir, andere zu motivieren und mitzuziehen."
+    },
+    {
+      "id": 61,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich kann mich verschiedenen Systemen schnell anpassen."
+    },
+    {
+      "id": 62,
+      "dim": "role",
+      "pole": "A",
+      "text": "Wenn niemand den ersten Schritt macht, tue ich es."
+    },
+    {
+      "id": 63,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich stelle Teamziele über meine Ambitionen."
+    },
+    {
+      "id": 64,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ich habe einen natürlichen Drang Verantwortung zu tragen."
+    },
+    {
+      "id": 65,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich lerne am meisten mit genauen Anweisungen."
+    },
+    {
+      "id": 66,
+      "dim": "role",
+      "pole": "A",
+      "text": "Andere orientieren sich an meinem Verhalten."
+    },
+    {
+      "id": 67,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich kann meine Rolle verändern ohne Verunsicherung."
+    },
+    {
+      "id": 68,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ich setze klare Maßstäbe für mich und andere."
+    }
+  ],
+  "external_assessment": [
+    {
+      "id": 1,
+      "dim": "drive",
+      "pole": "A",
+      "text": "setzt sich Entwicklungsziele und arbeitet daran."
+    },
+    {
+      "id": 2,
+      "dim": "drive",
+      "pole": "B",
+      "text": "ist extrem siegesorientiert."
+    },
+    {
+      "id": 3,
+      "dim": "drive",
+      "pole": "A",
+      "text": "sieht Fehler als Lernchance."
+    },
+    {
+      "id": 4,
+      "dim": "drive",
+      "pole": "B",
+      "text": "wird durch Wettkampf motiviert."
+    },
+    {
+      "id": 5,
+      "dim": "drive",
+      "pole": "A",
+      "text": "zeigt Interesse an technischer Verbesserung."
+    },
+    {
+      "id": 6,
+      "dim": "energy",
+      "pole": "A",
+      "text": "arbeitet am besten eigenständig."
+    },
+    {
+      "id": 7,
+      "dim": "energy",
+      "pole": "B",
+      "text": "spielt besser bei positiver Teamstimmung."
+    },
+    {
+      "id": 8,
+      "dim": "energy",
+      "pole": "A",
+      "text": "organisiert sich selbst gut."
+    },
+    {
+      "id": 9,
+      "dim": "energy",
+      "pole": "B",
+      "text": "braucht Zugehörigkeit."
+    },
+    {
+      "id": 10,
+      "dim": "energy",
+      "pole": "B",
+      "text": "stellt Teamziele über persönliche."
+    },
+    {
+      "id": 11,
+      "dim": "mental",
+      "pole": "A",
+      "text": "bleibt in hektischen Momenten ruhig."
+    },
+    {
+      "id": 12,
+      "dim": "mental",
+      "pole": "B",
+      "text": "wird durch Leidenschaft angetrieben."
+    },
+    {
+      "id": 13,
+      "dim": "mental",
+      "pole": "A",
+      "text": "zeigt kaum Schwankungen nach Rückschlägen."
+    },
+    {
+      "id": 14,
+      "dim": "mental",
+      "pole": "B",
+      "text": "bringt emotionale Energie ins Team."
+    },
+    {
+      "id": 15,
+      "dim": "mental",
+      "pole": "A",
+      "text": "trifft unter Druck rationale Entscheidungen."
+    },
+    {
+      "id": 16,
+      "dim": "role",
+      "pole": "A",
+      "text": "übernimmt automatisch Verantwortung."
+    },
+    {
+      "id": 17,
+      "dim": "role",
+      "pole": "B",
+      "text": "nimmt Anweisungen offen an."
+    },
+    {
+      "id": 18,
+      "dim": "role",
+      "pole": "A",
+      "text": "motiviert andere aktiv."
+    },
+    {
+      "id": 19,
+      "dim": "role",
+      "pole": "B",
+      "text": "passt sich flexibel an."
+    },
+    {
+      "id": 20,
+      "dim": "role",
+      "pole": "A",
+      "text": "andere orientieren sich an ihm."
+    }
+  ],
+  "trainer_personality": [
+    {
+      "id": 101,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich entwickle mich lieber weiter als mich mit anderen zu messen."
+    },
+    {
+      "id": 102,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Ich liebe den direkten Wettbewerb und will gewinnen."
+    },
+    {
+      "id": 103,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich lerne am meisten aus meinen eigenen Fehlern."
+    },
+    {
+      "id": 104,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Erfolg definiere ich über Resultate und Siege."
+    },
+    {
+      "id": 105,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich arbeite am besten allein und eigenverantwortlich."
+    },
+    {
+      "id": 106,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Ich brauche Menschen um mich herum um mein Bestes zu geben."
+    },
+    {
+      "id": 107,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich treffe Entscheidungen lieber allein als im Team."
+    },
+    {
+      "id": 108,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Gemeinsame Erlebnisse sind mir wichtiger als individuelle Erfolge."
+    },
+    {
+      "id": 109,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Ich bleibe auch in Extremsituationen ruhig und besonnen."
+    },
+    {
+      "id": 110,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Meine Emotionen sind mein stärkster Motor."
+    },
+    {
+      "id": 111,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Ich kontrolliere meine Reaktionen bewusst."
+    },
+    {
+      "id": 112,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Ich lebe meine Gefühle offen aus."
+    },
+    {
+      "id": 113,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ich übernehme in Gruppen natürlich die Führung."
+    },
+    {
+      "id": 114,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich passe mich flexibel an verschiedene Situationen an."
+    },
+    {
+      "id": 115,
+      "dim": "role",
+      "pole": "A",
+      "text": "Andere orientieren sich an meinen Entscheidungen."
+    },
+    {
+      "id": 116,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich bin am stärksten wenn ich eine klare Aufgabe habe."
+    }
+  ],
+  "trainer_coaching": [
+    {
+      "id": 1,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Spielerentwicklung ist mir wichtiger als kurzfristige Ergebnisse."
+    },
+    {
+      "id": 2,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Ich messe mich und mein Team primär an Resultaten."
+    },
+    {
+      "id": 3,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich investiere viel Zeit in individuelle Förderung."
+    },
+    {
+      "id": 4,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Ich fokussiere auf die Punkte die Spiele entscheiden."
+    },
+    {
+      "id": 5,
+      "dim": "drive",
+      "pole": "A",
+      "text": "Ich gebe Spielern Zeit sich zu entwickeln auch wenn es kurzfristig Punkte kostet."
+    },
+    {
+      "id": 6,
+      "dim": "drive",
+      "pole": "B",
+      "text": "Ich erwarte von meinen Spielern sofortige Umsetzung meiner Vorgaben."
+    },
+    {
+      "id": 7,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich gebe klare Anweisungen und erwarte deren Befolgung."
+    },
+    {
+      "id": 8,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Ich baue zuerst eine persönliche Beziehung zu jedem Spieler auf."
+    },
+    {
+      "id": 9,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Mein Trainingsstil ist strukturiert und durchgeplant."
+    },
+    {
+      "id": 10,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Ich spüre genau wie es meinen Spielern emotional geht."
+    },
+    {
+      "id": 11,
+      "dim": "energy",
+      "pole": "A",
+      "text": "Ich entscheide klar und schnell ohne lange Diskussion."
+    },
+    {
+      "id": 12,
+      "dim": "energy",
+      "pole": "B",
+      "text": "Ich beziehe Spieler in Entscheidungen ein."
+    },
+    {
+      "id": 13,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Ich bleibe auch bei Niederlagen ruhig und sachlich."
+    },
+    {
+      "id": 14,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Ich zeige meine Emotionen offen um das Team mitzureissen."
+    },
+    {
+      "id": 15,
+      "dim": "mental",
+      "pole": "A",
+      "text": "Mein Team beschreibt mich als besonnen und kontrolliert."
+    },
+    {
+      "id": 16,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Ich bin am besten wenn die Emotionen hochkochen."
+    },
+    {
+      "id": 17,
+      "dim": "mental",
+      "pole": "A",
+      "text": "In Krisen werde ich ruhiger statt lauter."
+    },
+    {
+      "id": 18,
+      "dim": "mental",
+      "pole": "B",
+      "text": "Meine Leidenschaft ist mein stärkstes Führungsinstrument."
+    },
+    {
+      "id": 19,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ich gebe die Richtung vor und das Team folgt."
+    },
+    {
+      "id": 20,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich passe meinen Stil an verschiedene Spieler an."
+    },
+    {
+      "id": 21,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ich setze klare Regeln die für alle gleich gelten."
+    },
+    {
+      "id": 22,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich führe verschiedene Spieler auf verschiedene Weise."
+    },
+    {
+      "id": 23,
+      "dim": "role",
+      "pole": "A",
+      "text": "Ich erwarte dass sich Spieler an mein System anpassen."
+    },
+    {
+      "id": 24,
+      "dim": "role",
+      "pole": "B",
+      "text": "Ich entwickle das System um die Stärken meiner Spieler."
+    }
+  ],
+  "battery_a": [
+    {
+      "id": 201,
+      "dim": "anchor_satisfaction",
+      "pole": "A",
+      "text": "Wie zufrieden bist du aktuell insgesamt mit deiner Situation im Team?"
+    },
+    {
+      "id": 202,
+      "dim": "anchor_psych_safety",
+      "pole": "A",
+      "text": "Ich kann im Team offen sagen, was ich denke, ohne negative Folgen befürchten zu müssen."
+    },
+    {
+      "id": 203,
+      "dim": "anchor_commitment",
+      "pole": "A",
+      "text": "Ich sehe mich auch in der nächsten Phase / Saison noch in diesem Team."
+    },
+    {
+      "id": 204,
+      "dim": "anchor_alignment",
+      "pole": "A",
+      "text": "Ich weiß genau, was meine Rolle ist und was das Team aktuell von mir erwartet."
+    },
+    {
+      "id": 205,
+      "dim": "anchor_motivation",
+      "pole": "A",
+      "text": "Ich bin aktuell hoch motiviert, für dieses Team Leistung zu bringen."
+    },
+    {
+      "id": 211,
+      "dim": "leadership",
+      "pole": "A",
+      "text": "Mein Trainer kommuniziert klar, was er von mir erwartet."
+    },
+    {
+      "id": 212,
+      "dim": "leadership",
+      "pole": "A",
+      "text": "Ich verstehe die taktische Idee und meinen Beitrag darin."
+    },
+    {
+      "id": 213,
+      "dim": "leadership",
+      "pole": "A",
+      "text": "Die Entscheidungen meines Trainers kann ich nachvollziehen."
+    },
+    {
+      "id": 214,
+      "dim": "leadership",
+      "pole": "A",
+      "text": "Ich bekomme regelmäßig hilfreiches Feedback."
+    },
+    {
+      "id": 215,
+      "dim": "leadership",
+      "pole": "A",
+      "text": "Mein Trainer behandelt alle Spieler fair und gerecht."
+    },
+    {
+      "id": 216,
+      "dim": "leadership",
+      "pole": "A",
+      "text": "Ich fühle mich als Person wahrgenommen, nicht nur als Spieler."
+    },
+    {
+      "id": 217,
+      "dim": "leadership",
+      "pole": "A",
+      "text": "Die Art wie mein Trainer führt, passt zu mir."
+    },
+    {
+      "id": 218,
+      "dim": "leadership",
+      "pole": "A",
+      "text": "Ich werde in Entscheidungen einbezogen die mich betreffen."
+    }
+  ],
+  "battery_b": [
+    {
+      "id": 201,
+      "dim": "anchor_satisfaction",
+      "pole": "A",
+      "text": "Wie zufrieden bist du aktuell insgesamt mit deiner Situation im Team?"
+    },
+    {
+      "id": 202,
+      "dim": "anchor_psych_safety",
+      "pole": "A",
+      "text": "Ich kann im Team offen sagen, was ich denke, ohne negative Folgen befürchten zu müssen."
+    },
+    {
+      "id": 203,
+      "dim": "anchor_commitment",
+      "pole": "A",
+      "text": "Ich sehe mich auch in der nächsten Phase / Saison noch in diesem Team."
+    },
+    {
+      "id": 204,
+      "dim": "anchor_alignment",
+      "pole": "A",
+      "text": "Ich weiß genau, was meine Rolle ist und was das Team aktuell von mir erwartet."
+    },
+    {
+      "id": 205,
+      "dim": "anchor_motivation",
+      "pole": "A",
+      "text": "Ich bin aktuell hoch motiviert, für dieses Team Leistung zu bringen."
+    },
+    {
+      "id": 221,
+      "dim": "team_climate",
+      "pole": "A",
+      "text": "Die Stimmung in der Mannschaft ist aktuell gut."
+    },
+    {
+      "id": 222,
+      "dim": "team_climate",
+      "pole": "A",
+      "text": "Wir halten als Team zusammen, auch wenn es schwierig wird."
+    },
+    {
+      "id": 223,
+      "dim": "team_climate",
+      "pole": "A",
+      "text": "Neue Spieler werden bei uns gut aufgenommen und integriert."
+    },
+    {
+      "id": 224,
+      "dim": "team_climate",
+      "pole": "A",
+      "text": "Konflikte im Team werden offen und fair gelöst."
+    },
+    {
+      "id": 225,
+      "dim": "team_climate",
+      "pole": "A",
+      "text": "Ich vertraue meinen Mitspielern auf und neben dem Platz."
+    },
+    {
+      "id": 226,
+      "dim": "team_climate",
+      "pole": "A",
+      "text": "Wir haben Spieler im Team die in schwierigen Momenten vorangehen."
+    },
+    {
+      "id": 227,
+      "dim": "team_climate",
+      "pole": "A",
+      "text": "Ich fühle mich als Teil dieser Mannschaft wohl."
+    },
+    {
+      "id": 228,
+      "dim": "team_climate",
+      "pole": "A",
+      "text": "Wir sprechen Probleme im Team direkt an."
+    }
+  ],
+  "battery_c": [
+    {
+      "id": 201,
+      "dim": "anchor_satisfaction",
+      "pole": "A",
+      "text": "Wie zufrieden bist du aktuell insgesamt mit deiner Situation im Team?"
+    },
+    {
+      "id": 202,
+      "dim": "anchor_psych_safety",
+      "pole": "A",
+      "text": "Ich kann im Team offen sagen, was ich denke, ohne negative Folgen befürchten zu müssen."
+    },
+    {
+      "id": 203,
+      "dim": "anchor_commitment",
+      "pole": "A",
+      "text": "Ich sehe mich auch in der nächsten Phase / Saison noch in diesem Team."
+    },
+    {
+      "id": 204,
+      "dim": "anchor_alignment",
+      "pole": "A",
+      "text": "Ich weiß genau, was meine Rolle ist und was das Team aktuell von mir erwartet."
+    },
+    {
+      "id": 205,
+      "dim": "anchor_motivation",
+      "pole": "A",
+      "text": "Ich bin aktuell hoch motiviert, für dieses Team Leistung zu bringen."
+    },
+    {
+      "id": 231,
+      "dim": "development",
+      "pole": "A",
+      "text": "Ich habe das Gefühl, mich in den letzten Wochen weiterentwickelt zu haben."
+    },
+    {
+      "id": 232,
+      "dim": "development",
+      "pole": "A",
+      "text": "Das Training fordert mich aktuell auf dem richtigen Niveau."
+    },
+    {
+      "id": 233,
+      "dim": "development",
+      "pole": "A",
+      "text": "Ich bekomme die Spielzeit die meiner Leistung entspricht."
+    },
+    {
+      "id": 234,
+      "dim": "development",
+      "pole": "A",
+      "text": "Ich weiß, woran ich konkret arbeiten muss um besser zu werden."
+    },
+    {
+      "id": 235,
+      "dim": "development",
+      "pole": "A",
+      "text": "Mein Trainer investiert Zeit in meine individuelle Entwicklung."
+    },
+    {
+      "id": 236,
+      "dim": "development",
+      "pole": "B",
+      "text": "Ich merke, dass mir Training und Spiele aktuell mehr Energie kosten als üblich."
+    },
+    {
+      "id": 237,
+      "dim": "development",
+      "pole": "A",
+      "text": "Ich sehe eine klare sportliche Perspektive für mich in diesem Team."
+    },
+    {
+      "id": 238,
+      "dim": "development",
+      "pole": "A",
+      "text": "Die Balance zwischen Fußball und meinem restlichen Leben stimmt aktuell."
+    }
+  ],
+  "battery_d": [
+    {
+      "id": 201,
+      "dim": "anchor_satisfaction",
+      "pole": "A",
+      "text": "Wie zufrieden bist du aktuell insgesamt mit deiner Situation im Team?"
+    },
+    {
+      "id": 202,
+      "dim": "anchor_psych_safety",
+      "pole": "A",
+      "text": "Ich kann im Team offen sagen, was ich denke, ohne negative Folgen befürchten zu müssen."
+    },
+    {
+      "id": 203,
+      "dim": "anchor_commitment",
+      "pole": "A",
+      "text": "Ich sehe mich auch in der nächsten Phase / Saison noch in diesem Team."
+    },
+    {
+      "id": 204,
+      "dim": "anchor_alignment",
+      "pole": "A",
+      "text": "Ich weiß genau, was meine Rolle ist und was das Team aktuell von mir erwartet."
+    },
+    {
+      "id": 205,
+      "dim": "anchor_motivation",
+      "pole": "A",
+      "text": "Ich bin aktuell hoch motiviert, für dieses Team Leistung zu bringen."
+    },
+    {
+      "id": 241,
+      "dim": "wellbeing",
+      "pole": "A",
+      "text": "Ich fühle mich aktuell körperlich fit und belastbar."
+    },
+    {
+      "id": 242,
+      "dim": "wellbeing",
+      "pole": "A",
+      "text": "Ich schlafe aktuell gut und fühle mich erholt."
+    },
+    {
+      "id": 243,
+      "dim": "wellbeing",
+      "pole": "A",
+      "text": "Mein mentaler Zustand ist stabil und positiv."
+    },
+    {
+      "id": 244,
+      "dim": "wellbeing",
+      "pole": "A",
+      "text": "Ich kann mit Druck und Rückschlägen aktuell gut umgehen."
+    },
+    {
+      "id": 245,
+      "dim": "wellbeing",
+      "pole": "A",
+      "text": "Ich vertraue meinem Trainer als Person."
+    },
+    {
+      "id": 246,
+      "dim": "wellbeing",
+      "pole": "A",
+      "text": "Ich fühle mich im Verein wertgeschätzt und respektiert."
+    },
+    {
+      "id": 247,
+      "dim": "wellbeing",
+      "pole": "A",
+      "text": "Ich kann bei Problemen jemanden im Team oder Staff ansprechen."
+    },
+    {
+      "id": 248,
+      "dim": "wellbeing",
+      "pole": "A",
+      "text": "Ich identifiziere mich mit den Zielen und Werten des Vereins."
+    }
+  ],
+  "battery_e": [
+    {
+      "id": 201,
+      "dim": "anchor_satisfaction",
+      "pole": "A",
+      "text": "Wie zufrieden bist du aktuell insgesamt mit deiner Situation im Team?"
+    },
+    {
+      "id": 202,
+      "dim": "anchor_psych_safety",
+      "pole": "A",
+      "text": "Ich kann im Team offen sagen, was ich denke, ohne negative Folgen befürchten zu müssen."
+    },
+    {
+      "id": 203,
+      "dim": "anchor_commitment",
+      "pole": "A",
+      "text": "Ich sehe mich auch in der nächsten Phase / Saison noch in diesem Team."
+    },
+    {
+      "id": 204,
+      "dim": "anchor_alignment",
+      "pole": "A",
+      "text": "Ich weiß genau, was meine Rolle ist und was das Team aktuell von mir erwartet."
+    },
+    {
+      "id": 205,
+      "dim": "anchor_motivation",
+      "pole": "A",
+      "text": "Ich bin aktuell hoch motiviert, für dieses Team Leistung zu bringen."
+    },
+    {
+      "id": 251,
+      "dim": "matchday",
+      "pole": "A",
+      "text": "Ich war mit meiner persönlichen Leistung am Spieltag zufrieden."
+    },
+    {
+      "id": 252,
+      "dim": "matchday",
+      "pole": "A",
+      "text": "Die Mannschaft hat als Einheit funktioniert."
+    },
+    {
+      "id": 253,
+      "dim": "matchday",
+      "pole": "A",
+      "text": "Die taktische Vorgabe war klar und umsetzbar."
+    },
+    {
+      "id": 254,
+      "dim": "matchday",
+      "pole": "A",
+      "text": "Die Reaktion des Trainers nach dem Spiel war angemessen und fair."
+    },
+    {
+      "id": 255,
+      "dim": "matchday",
+      "pole": "A",
+      "text": "Ich bin bereit, im nächsten Spiel noch mehr zu geben."
+    },
+    {
+      "id": 256,
+      "dim": "matchday",
+      "pole": "A",
+      "text": "Die Stimmung in der Kabine nach dem Spiel war konstruktiv."
+    }
+  ]
+}
